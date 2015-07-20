@@ -1,0 +1,1 @@
+echo FENISTIL GEL   5.80 > com1

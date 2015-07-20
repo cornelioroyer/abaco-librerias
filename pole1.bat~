@@ -1,0 +1,5 @@
+echo on
+rem MODE COM1:9600,n,8,1
+ECHO > COM1: 
+echo > com1:ESC [H
+echo > com1:ESC %1

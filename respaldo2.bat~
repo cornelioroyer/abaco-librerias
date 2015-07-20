@@ -1,0 +1,16 @@
+@echo off
+cd \
+md backups
+cd backups
+md winsoft
+cd winsoft
+
+rem set datestr=%day%_%month%_%year%
+set datestr=%DATE:~6,4%%DATE:~3,2%%DATE:~0,2%
+
+  echo datestr is %datestr%
+  set BACKUP_FILE=Nombre_de_archivo_%datestr%.backup
+  SET PGPASSWORD=Password_de_postgres
+  echo on
+rem  bin\pg_dump -i -h HostName -p5432 -U Usuario -F c -b -v -f %BACKUP_FILE% Nombre_BD
+pg_dump pfc > %BACKUP_FILE%

@@ -1,0 +1,8 @@
+cd c:\pgsql\respaldo
+vacuumdb --analyze pfc
+rem vacuumdb --analyze bering
+pg_dump pfc > pfc.out
+rem pg_dump bering > bering.out
+gzip -cfv pfc.out > %1p.gz
+rem gzip -cfv bering.out > %1a.gz
+del *.out

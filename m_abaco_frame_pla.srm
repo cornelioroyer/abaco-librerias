@@ -1,0 +1,3823 @@
+$PBExportHeader$m_abaco_frame_pla.srm
+forward
+global type m_abaco_frame_pla from m_abaco_master
+end type
+type m_mantenimiento from menu within m_abaco_frame_pla
+end type
+type m_cargosopuestos from menu within m_mantenimiento
+end type
+type m_turnosdetrabajo from menu within m_mantenimiento
+end type
+type m_empleados from menu within m_mantenimiento
+end type
+type m_acreedores from menu within m_mantenimiento
+end type
+type m_deduccionescomerciales from menu within m_mantenimiento
+end type
+type m_ajustepagosacreedores0 from menu within m_mantenimiento
+end type
+type m_turnospordia0 from menu within m_mantenimiento
+end type
+type m_certificadosmedico from menu within m_mantenimiento
+end type
+type m_reemplazos from menu within m_mantenimiento
+end type
+type m_deduccionesadicionales from menu within m_mantenimiento
+end type
+type m_permisossindicales from menu within m_mantenimiento
+end type
+type m_constancias from menu within m_mantenimiento
+end type
+type m_riesgosprofesionales from menu within m_mantenimiento
+end type
+type m_mantenimiento from menu within m_abaco_frame_pla
+m_cargosopuestos m_cargosopuestos
+m_turnosdetrabajo m_turnosdetrabajo
+m_empleados m_empleados
+m_acreedores m_acreedores
+m_deduccionescomerciales m_deduccionescomerciales
+m_ajustepagosacreedores0 m_ajustepagosacreedores0
+m_turnospordia0 m_turnospordia0
+m_certificadosmedico m_certificadosmedico
+m_reemplazos m_reemplazos
+m_deduccionesadicionales m_deduccionesadicionales
+m_permisossindicales m_permisossindicales
+m_constancias m_constancias
+m_riesgosprofesionales m_riesgosprofesionales
+end type
+type m_parametros from menu within m_abaco_frame_pla
+end type
+type m_departamentosecciones from menu within m_parametros
+end type
+type m_recargosdehorasextras from menu within m_parametros
+end type
+type m_tipo_planilla from menu within m_parametros
+end type
+type m_díasferiados from menu within m_parametros
+end type
+type m_tabla_imp_srenta from menu within m_parametros
+end type
+type m_conceptosdeplanilla from menu within m_parametros
+end type
+type m_tipodecalculos from menu within m_parametros
+end type
+type m_clavesdeir from menu within m_parametros
+end type
+type m_afectacioncontable from menu within m_parametros
+end type
+type m_planillapreelaborada from menu within m_parametros
+end type
+type m_registro from menu within m_planillapreelaborada
+end type
+type m_listado from menu within m_planillapreelaborada
+end type
+type m_planillapreelaborada from menu within m_parametros
+m_registro m_registro
+m_listado m_listado
+end type
+type m_parametros from menu within m_abaco_frame_pla
+m_departamentosecciones m_departamentosecciones
+m_recargosdehorasextras m_recargosdehorasextras
+m_tipo_planilla m_tipo_planilla
+m_díasferiados m_díasferiados
+m_tabla_imp_srenta m_tabla_imp_srenta
+m_conceptosdeplanilla m_conceptosdeplanilla
+m_tipodecalculos m_tipodecalculos
+m_clavesdeir m_clavesdeir
+m_afectacioncontable m_afectacioncontable
+m_planillapreelaborada m_planillapreelaborada
+end type
+type m_planillaregular0 from menu within m_abaco_frame_pla
+end type
+type m_creartarjetadetiempo from menu within m_planillaregular0
+end type
+type m_ajustedetarjetadetiempo from menu within m_planillaregular0
+end type
+type m_ajustedehoras20 from menu within m_planillaregular0
+end type
+type m_0 from menu within m_planillaregular0
+end type
+type m_1 from menu within m_planillaregular0
+end type
+type m_calculoextemporaneo from menu within m_planillaregular0
+end type
+type m_ajustedelcalculo from menu within m_planillaregular0
+end type
+type m_listados0 from menu within m_planillaregular0
+end type
+type m_tarjetadetiempo0 from menu within m_listados0
+end type
+type m_horasvertical0 from menu within m_listados0
+end type
+type m_resumendehorasporperiodo1 from menu within m_listados0
+end type
+type m_horasporperiodoresumido from menu within m_listados0
+end type
+type m_horasporperiododetallado from menu within m_listados0
+end type
+type m_planillahorizonal from menu within m_listados0
+end type
+type m_2 from menu within m_listados0
+end type
+type m_sobredepagosemanal from menu within m_listados0
+end type
+type m_desglocedeplanilla from menu within m_listados0
+end type
+type m_listados0 from menu within m_planillaregular0
+m_tarjetadetiempo0 m_tarjetadetiempo0
+m_horasvertical0 m_horasvertical0
+m_resumendehorasporperiodo1 m_resumendehorasporperiodo1
+m_horasporperiodoresumido m_horasporperiodoresumido
+m_horasporperiododetallado m_horasporperiododetallado
+m_planillahorizonal m_planillahorizonal
+m_2 m_2
+m_sobredepagosemanal m_sobredepagosemanal
+m_desglocedeplanilla m_desglocedeplanilla
+end type
+type m_planillaregular0 from menu within m_abaco_frame_pla
+m_creartarjetadetiempo m_creartarjetadetiempo
+m_ajustedetarjetadetiempo m_ajustedetarjetadetiempo
+m_ajustedehoras20 m_ajustedehoras20
+m_0 m_0
+m_1 m_1
+m_calculoextemporaneo m_calculoextemporaneo
+m_ajustedelcalculo m_ajustedelcalculo
+m_listados0 m_listados0
+end type
+type m_procesosdiario from menu within m_abaco_frame_pla
+end type
+type m_vacaciones0 from menu within m_procesosdiario
+end type
+type m_planificacion from menu within m_vacaciones0
+end type
+type m_planillavacaciones from menu within m_vacaciones0
+end type
+type m_vacaciones0 from menu within m_procesosdiario
+m_planificacion m_planificacion
+m_planillavacaciones m_planillavacaciones
+end type
+type m_décimoxiiimes from menu within m_procesosdiario
+end type
+type m_rangodefecha from menu within m_décimoxiiimes
+end type
+type m_generadorxiiimes from menu within m_décimoxiiimes
+end type
+type m_décimoxiiimes from menu within m_procesosdiario
+m_rangodefecha m_rangodefecha
+m_generadorxiiimes m_generadorxiiimes
+end type
+type m_liquidación from menu within m_procesosdiario
+end type
+type m_parámetrosdeliquidación from menu within m_liquidación
+end type
+type m_listadoverificador from menu within m_liquidación
+end type
+type m_planilladeliquidación from menu within m_liquidación
+end type
+type m_afectacióncontable from menu within m_liquidación
+end type
+type m_comprobantesdecheque from menu within m_liquidación
+end type
+type m_cierreplanilladeliquidación from menu within m_liquidación
+end type
+type m_informeespecialdeliquidación from menu within m_liquidación
+end type
+type m_liquidación from menu within m_procesosdiario
+m_parámetrosdeliquidación m_parámetrosdeliquidación
+m_listadoverificador m_listadoverificador
+m_planilladeliquidación m_planilladeliquidación
+m_afectacióncontable m_afectacióncontable
+m_comprobantesdecheque m_comprobantesdecheque
+m_cierreplanilladeliquidación m_cierreplanilladeliquidación
+m_informeespecialdeliquidación m_informeespecialdeliquidación
+end type
+type m_pagosespeciales from menu within m_procesosdiario
+end type
+type m_8 from menu within m_pagosespeciales
+end type
+type m_9 from menu within m_pagosespeciales
+end type
+type m_10 from menu within m_pagosespeciales
+end type
+type m_11 from menu within m_pagosespeciales
+end type
+type m_20 from menu within m_pagosespeciales
+end type
+type m_21 from menu within m_pagosespeciales
+end type
+type m_querymode from menu within m_pagosespeciales
+end type
+type m_recuperar from menu within m_pagosespeciales
+end type
+type m_pagosespeciales from menu within m_procesosdiario
+m_8 m_8
+m_9 m_9
+m_10 m_10
+m_11 m_11
+m_20 m_20
+m_21 m_21
+m_querymode m_querymode
+m_recuperar m_recuperar
+end type
+type m_procesosdiario from menu within m_abaco_frame_pla
+m_vacaciones0 m_vacaciones0
+m_décimoxiiimes m_décimoxiiimes
+m_liquidación m_liquidación
+m_pagosespeciales m_pagosespeciales
+end type
+type m_otrosprocesos from menu within m_abaco_frame_pla
+end type
+type m_sobredepago from menu within m_otrosprocesos
+end type
+type m_chequesdeacreedores from menu within m_otrosprocesos
+end type
+type m_chequesdequincena from menu within m_otrosprocesos
+end type
+type m_imprimircheques from menu within m_otrosprocesos
+end type
+type m_otrosprocesos from menu within m_abaco_frame_pla
+m_sobredepago m_sobredepago
+m_chequesdeacreedores m_chequesdeacreedores
+m_chequesdequincena m_chequesdequincena
+m_imprimircheques m_imprimircheques
+end type
+type m_informesespeciales from menu within m_abaco_frame_pla
+end type
+type m_desglocedeplanilla0 from menu within m_informesespeciales
+end type
+type m_desglocedehoras from menu within m_informesespeciales
+end type
+type m_descuentosporacreedor from menu within m_informesespeciales
+end type
+type m_descuentosporempleado from menu within m_informesespeciales
+end type
+type m_desctosporempleado from menu within m_informesespeciales
+end type
+type m_balanceporacreedor-empleado from menu within m_informesespeciales
+end type
+type m_saldodeacreedores from menu within m_informesespeciales
+end type
+type m_saldodeacreedoresacreedor from menu within m_informesespeciales
+end type
+type m_catalogodeempleados from menu within m_informesespeciales
+end type
+type m_certificadosmedico0 from menu within m_informesespeciales
+end type
+type m_resumendehorasporperiodo from menu within m_informesespeciales
+end type
+type m_planilla0 from menu within m_informesespeciales
+end type
+type m_desglosedepagos from menu within m_informesespeciales
+end type
+type m_reportepre-elaboradamensual from menu within m_informesespeciales
+end type
+type m_generacióndearchivoascii from menu within m_informesespeciales
+end type
+type m_sobre85x11 from menu within m_informesespeciales
+end type
+type m_empleado from menu within m_informesespeciales
+end type
+type m_informesespeciales from menu within m_abaco_frame_pla
+m_desglocedeplanilla0 m_desglocedeplanilla0
+m_desglocedehoras m_desglocedehoras
+m_descuentosporacreedor m_descuentosporacreedor
+m_descuentosporempleado m_descuentosporempleado
+m_desctosporempleado m_desctosporempleado
+m_balanceporacreedor-empleado m_balanceporacreedor-empleado
+m_saldodeacreedores m_saldodeacreedores
+m_saldodeacreedoresacreedor m_saldodeacreedoresacreedor
+m_catalogodeempleados m_catalogodeempleados
+m_certificadosmedico0 m_certificadosmedico0
+m_resumendehorasporperiodo m_resumendehorasporperiodo
+m_planilla0 m_planilla0
+m_desglosedepagos m_desglosedepagos
+m_reportepre-elaboradamensual m_reportepre-elaboradamensual
+m_generacióndearchivoascii m_generacióndearchivoascii
+m_sobre85x11 m_sobre85x11
+m_empleado m_empleado
+end type
+type m_cierredeplanilla from menu within m_abaco_frame_pla
+end type
+type m_afectaciónalmayor from menu within m_cierredeplanilla
+end type
+type m_tipodecolumnas0 from menu within m_afectaciónalmayor
+end type
+type m_estructura0 from menu within m_afectaciónalmayor
+end type
+type m_afectaciónalmayor from menu within m_cierredeplanilla
+m_tipodecolumnas0 m_tipodecolumnas0
+m_estructura0 m_estructura0
+end type
+type m_preelaborada1 from menu within m_cierredeplanilla
+end type
+type m_acumuladosporempleado2 from menu within m_cierredeplanilla
+end type
+type m_acumulados3 from menu within m_cierredeplanilla
+end type
+type m_cierredeplanilla from menu within m_abaco_frame_pla
+m_afectaciónalmayor m_afectaciónalmayor
+m_preelaborada1 m_preelaborada1
+m_acumuladosporempleado2 m_acumuladosporempleado2
+m_acumulados3 m_acumulados3
+end type
+type m_utilitarios from menu within m_abaco_frame_pla
+end type
+type m_ajustedehoras10 from menu within m_utilitarios
+end type
+type m_actualizasalariobruto from menu within m_utilitarios
+end type
+type m_utilitarios from menu within m_abaco_frame_pla
+m_ajustedehoras10 m_ajustedehoras10
+m_actualizasalariobruto m_actualizasalariobruto
+end type
+global type m_abaco_frame_pla from m_abaco_master
+m_mantenimiento m_mantenimiento
+m_parametros m_parametros
+m_planillaregular0 m_planillaregular0
+m_procesosdiario m_procesosdiario
+m_otrosprocesos m_otrosprocesos
+m_informesespeciales m_informesespeciales
+m_cierredeplanilla m_cierredeplanilla
+m_utilitarios m_utilitarios
+end type
+end forward
+
+global type m_abaco_frame_pla from m_abaco_master
+m_mantenimiento m_mantenimiento
+m_parametros m_parametros
+m_planillaregular0 m_planillaregular0
+m_procesosdiario m_procesosdiario
+m_otrosprocesos m_otrosprocesos
+m_informesespeciales m_informesespeciales
+m_cierredeplanilla m_cierredeplanilla
+m_utilitarios m_utilitarios
+end type
+global m_abaco_frame_pla m_abaco_frame_pla
+
+on m_abaco_frame_pla.create
+m_abaco_frame_pla=this
+call super::create
+this.text = "m_abaco_frame_pla"
+this.m_mantenimiento=create m_mantenimiento
+this.m_parametros=create m_parametros
+this.m_planillaregular0=create m_planillaregular0
+this.m_procesosdiario=create m_procesosdiario
+this.m_otrosprocesos=create m_otrosprocesos
+this.m_informesespeciales=create m_informesespeciales
+this.m_cierredeplanilla=create m_cierredeplanilla
+this.m_utilitarios=create m_utilitarios
+this.Item[UpperBound(this.Item)+1]=this.m_mantenimiento
+this.Item[UpperBound(this.Item)+1]=this.m_parametros
+this.Item[UpperBound(this.Item)+1]=this.m_planillaregular0
+this.Item[UpperBound(this.Item)+1]=this.m_procesosdiario
+this.Item[UpperBound(this.Item)+1]=this.m_otrosprocesos
+this.Item[UpperBound(this.Item)+1]=this.m_informesespeciales
+this.Item[UpperBound(this.Item)+1]=this.m_cierredeplanilla
+this.Item[UpperBound(this.Item)+1]=this.m_utilitarios
+end on
+
+on m_abaco_frame_pla.destroy
+call super::destroy
+destroy(this.m_mantenimiento)
+destroy(this.m_parametros)
+destroy(this.m_planillaregular0)
+destroy(this.m_procesosdiario)
+destroy(this.m_otrosprocesos)
+destroy(this.m_informesespeciales)
+destroy(this.m_cierredeplanilla)
+destroy(this.m_utilitarios)
+end on
+
+event clicked;call super::clicked;gs_parms.datawindow[1]	=	"d_rhucargo"
+gs_parms.title				=	"Cargos o puestos de la empresa"
+message.StringParm 		= 	"w_maestro_planilla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+type m_file from m_abaco_master`m_file within m_abaco_frame_pla
+end type
+
+on m_file.create
+call super::create
+end on
+
+on m_file.destroy
+call super::destroy
+end on
+
+type m_new from m_abaco_master`m_new within m_file
+end type
+
+on m_new.create
+call super::create
+end on
+
+on m_new.destroy
+call super::destroy
+end on
+
+type m_open from m_abaco_master`m_open within m_file
+end type
+
+on m_open.create
+call super::create
+end on
+
+on m_open.destroy
+call super::destroy
+end on
+
+type m_close from m_abaco_master`m_close within m_file
+end type
+
+on m_close.create
+call super::create
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+type m_dash11 from m_abaco_master`m_dash11 within m_file
+end type
+
+on m_dash11.create
+call super::create
+end on
+
+on m_dash11.destroy
+call super::destroy
+end on
+
+type m_save from m_abaco_master`m_save within m_file
+end type
+
+on m_save.create
+call super::create
+end on
+
+on m_save.destroy
+call super::destroy
+end on
+
+type m_saveas from m_abaco_master`m_saveas within m_file
+end type
+
+on m_saveas.create
+call super::create
+end on
+
+on m_saveas.destroy
+call super::destroy
+end on
+
+type m_dash12 from m_abaco_master`m_dash12 within m_file
+end type
+
+on m_dash12.create
+call super::create
+end on
+
+on m_dash12.destroy
+call super::destroy
+end on
+
+type m_print from m_abaco_master`m_print within m_file
+end type
+
+on m_print.create
+call super::create
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+type m_printpreview from m_abaco_master`m_printpreview within m_file
+end type
+
+on m_printpreview.create
+call super::create
+end on
+
+on m_printpreview.destroy
+call super::destroy
+end on
+
+type m_pagesetup from m_abaco_master`m_pagesetup within m_file
+end type
+
+on m_pagesetup.create
+call super::create
+end on
+
+on m_pagesetup.destroy
+call super::destroy
+end on
+
+type m_printimmediate from m_abaco_master`m_printimmediate within m_file
+end type
+
+on m_printimmediate.create
+call super::create
+end on
+
+on m_printimmediate.destroy
+call super::destroy
+end on
+
+type m_dash13 from m_abaco_master`m_dash13 within m_file
+end type
+
+on m_dash13.create
+call super::create
+end on
+
+on m_dash13.destroy
+call super::destroy
+end on
+
+type m_delete from m_abaco_master`m_delete within m_file
+end type
+
+on m_delete.create
+call super::create
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+type m_properties from m_abaco_master`m_properties within m_file
+end type
+
+on m_properties.create
+call super::create
+end on
+
+on m_properties.destroy
+call super::destroy
+end on
+
+type m_dash14 from m_abaco_master`m_dash14 within m_file
+end type
+
+on m_dash14.create
+call super::create
+end on
+
+on m_dash14.destroy
+call super::destroy
+end on
+
+type m_exit from m_abaco_master`m_exit within m_file
+end type
+
+on m_exit.create
+call super::create
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_pfcmrudash1 from m_abaco_master`m_pfcmrudash1 within m_file
+end type
+
+on m_pfcmrudash1.create
+call super::create
+end on
+
+on m_pfcmrudash1.destroy
+call super::destroy
+end on
+
+type m_pfcmru1 from m_abaco_master`m_pfcmru1 within m_file
+end type
+
+on m_pfcmru1.create
+call super::create
+end on
+
+on m_pfcmru1.destroy
+call super::destroy
+end on
+
+type m_pfcmru2 from m_abaco_master`m_pfcmru2 within m_file
+end type
+
+on m_pfcmru2.create
+call super::create
+end on
+
+on m_pfcmru2.destroy
+call super::destroy
+end on
+
+type m_pfcmru3 from m_abaco_master`m_pfcmru3 within m_file
+end type
+
+on m_pfcmru3.create
+call super::create
+end on
+
+on m_pfcmru3.destroy
+call super::destroy
+end on
+
+type m_pfcmru4 from m_abaco_master`m_pfcmru4 within m_file
+end type
+
+on m_pfcmru4.create
+call super::create
+end on
+
+on m_pfcmru4.destroy
+call super::destroy
+end on
+
+type m_pfcmru5 from m_abaco_master`m_pfcmru5 within m_file
+end type
+
+on m_pfcmru5.create
+call super::create
+end on
+
+on m_pfcmru5.destroy
+call super::destroy
+end on
+
+type m_edit from m_abaco_master`m_edit within m_abaco_frame_pla
+end type
+
+on m_edit.create
+call super::create
+end on
+
+on m_edit.destroy
+call super::destroy
+end on
+
+type m_undo from m_abaco_master`m_undo within m_edit
+end type
+
+on m_undo.create
+call super::create
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+type m_dash21 from m_abaco_master`m_dash21 within m_edit
+end type
+
+on m_dash21.create
+call super::create
+end on
+
+on m_dash21.destroy
+call super::destroy
+end on
+
+type m_cut from m_abaco_master`m_cut within m_edit
+end type
+
+on m_cut.create
+call super::create
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+type m_copy from m_abaco_master`m_copy within m_edit
+end type
+
+on m_copy.create
+call super::create
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+type m_paste from m_abaco_master`m_paste within m_edit
+end type
+
+on m_paste.create
+call super::create
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_pastespecial from m_abaco_master`m_pastespecial within m_edit
+end type
+
+on m_pastespecial.create
+call super::create
+end on
+
+on m_pastespecial.destroy
+call super::destroy
+end on
+
+type m_clear from m_abaco_master`m_clear within m_edit
+end type
+
+on m_clear.create
+call super::create
+end on
+
+on m_clear.destroy
+call super::destroy
+end on
+
+type m_dash22 from m_abaco_master`m_dash22 within m_edit
+end type
+
+on m_dash22.create
+call super::create
+end on
+
+on m_dash22.destroy
+call super::destroy
+end on
+
+type m_selectall from m_abaco_master`m_selectall within m_edit
+end type
+
+on m_selectall.create
+call super::create
+end on
+
+on m_selectall.destroy
+call super::destroy
+end on
+
+type m_dash23 from m_abaco_master`m_dash23 within m_edit
+end type
+
+on m_dash23.create
+call super::create
+end on
+
+on m_dash23.destroy
+call super::destroy
+end on
+
+type m_find from m_abaco_master`m_find within m_edit
+end type
+
+on m_find.create
+call super::create
+end on
+
+on m_find.destroy
+call super::destroy
+end on
+
+type m_replace from m_abaco_master`m_replace within m_edit
+end type
+
+on m_replace.create
+call super::create
+end on
+
+on m_replace.destroy
+call super::destroy
+end on
+
+type m_dash24 from m_abaco_master`m_dash24 within m_edit
+end type
+
+on m_dash24.create
+call super::create
+end on
+
+on m_dash24.destroy
+call super::destroy
+end on
+
+type m_updatelinks from m_abaco_master`m_updatelinks within m_edit
+end type
+
+on m_updatelinks.create
+call super::create
+end on
+
+on m_updatelinks.destroy
+call super::destroy
+end on
+
+type m_object1 from m_abaco_master`m_object1 within m_edit
+end type
+
+on m_object1.create
+call super::create
+end on
+
+on m_object1.destroy
+call super::destroy
+end on
+
+type m_edit1 from m_abaco_master`m_edit1 within m_object1
+end type
+
+on m_edit1.create
+call super::create
+end on
+
+on m_edit1.destroy
+call super::destroy
+end on
+
+type m_open1 from m_abaco_master`m_open1 within m_object1
+end type
+
+on m_open1.create
+call super::create
+end on
+
+on m_open1.destroy
+call super::destroy
+end on
+
+type m_insertar from m_abaco_master`m_insertar within m_edit
+end type
+
+on m_insertar.create
+call super::create
+end on
+
+on m_insertar.destroy
+call super::destroy
+end on
+
+type m_eliminar from m_abaco_master`m_eliminar within m_edit
+end type
+
+on m_eliminar.create
+call super::create
+end on
+
+on m_eliminar.destroy
+call super::destroy
+end on
+
+type m_view from m_abaco_master`m_view within m_abaco_frame_pla
+end type
+
+on m_view.create
+call super::create
+end on
+
+on m_view.destroy
+call super::destroy
+end on
+
+type m_ruler from m_abaco_master`m_ruler within m_view
+end type
+
+on m_ruler.create
+call super::create
+end on
+
+on m_ruler.destroy
+call super::destroy
+end on
+
+type m_dash31 from m_abaco_master`m_dash31 within m_view
+end type
+
+on m_dash31.create
+call super::create
+end on
+
+on m_dash31.destroy
+call super::destroy
+end on
+
+type m_largeicon from m_abaco_master`m_largeicon within m_view
+end type
+
+on m_largeicon.create
+call super::create
+end on
+
+on m_largeicon.destroy
+call super::destroy
+end on
+
+type m_smallicons from m_abaco_master`m_smallicons within m_view
+end type
+
+on m_smallicons.create
+call super::create
+end on
+
+on m_smallicons.destroy
+call super::destroy
+end on
+
+type m_list from m_abaco_master`m_list within m_view
+end type
+
+on m_list.create
+call super::create
+end on
+
+on m_list.destroy
+call super::destroy
+end on
+
+type m_details from m_abaco_master`m_details within m_view
+end type
+
+on m_details.create
+call super::create
+end on
+
+on m_details.destroy
+call super::destroy
+end on
+
+type m_dash32 from m_abaco_master`m_dash32 within m_view
+end type
+
+on m_dash32.create
+call super::create
+end on
+
+on m_dash32.destroy
+call super::destroy
+end on
+
+type m_arrangeicons from m_abaco_master`m_arrangeicons within m_view
+end type
+
+on m_arrangeicons.create
+call super::create
+end on
+
+on m_arrangeicons.destroy
+call super::destroy
+end on
+
+type m_by1 from m_abaco_master`m_by1 within m_arrangeicons
+end type
+
+on m_by1.create
+call super::create
+end on
+
+on m_by1.destroy
+call super::destroy
+end on
+
+type m_dash33 from m_abaco_master`m_dash33 within m_arrangeicons
+end type
+
+on m_dash33.create
+call super::create
+end on
+
+on m_dash33.destroy
+call super::destroy
+end on
+
+type m_autoarrange from m_abaco_master`m_autoarrange within m_arrangeicons
+end type
+
+on m_autoarrange.create
+call super::create
+end on
+
+on m_autoarrange.destroy
+call super::destroy
+end on
+
+type m_dash34 from m_abaco_master`m_dash34 within m_view
+end type
+
+on m_dash34.create
+call super::create
+end on
+
+on m_dash34.destroy
+call super::destroy
+end on
+
+type m_first from m_abaco_master`m_first within m_view
+end type
+
+on m_first.create
+call super::create
+end on
+
+on m_first.destroy
+call super::destroy
+end on
+
+type m_priorpage from m_abaco_master`m_priorpage within m_view
+end type
+
+on m_priorpage.create
+call super::create
+end on
+
+on m_priorpage.destroy
+call super::destroy
+end on
+
+type m_nextpage from m_abaco_master`m_nextpage within m_view
+end type
+
+on m_nextpage.create
+call super::create
+end on
+
+on m_nextpage.destroy
+call super::destroy
+end on
+
+type m_lastpage from m_abaco_master`m_lastpage within m_view
+end type
+
+on m_lastpage.create
+call super::create
+end on
+
+on m_lastpage.destroy
+call super::destroy
+end on
+
+type m_dash35 from m_abaco_master`m_dash35 within m_view
+end type
+
+on m_dash35.create
+call super::create
+end on
+
+on m_dash35.destroy
+call super::destroy
+end on
+
+type m_sort from m_abaco_master`m_sort within m_view
+end type
+
+on m_sort.create
+call super::create
+end on
+
+on m_sort.destroy
+call super::destroy
+end on
+
+type m_filter from m_abaco_master`m_filter within m_view
+end type
+
+on m_filter.create
+call super::create
+end on
+
+on m_filter.destroy
+call super::destroy
+end on
+
+type m_dash36 from m_abaco_master`m_dash36 within m_view
+end type
+
+on m_dash36.create
+call super::create
+end on
+
+on m_dash36.destroy
+call super::destroy
+end on
+
+type m_zoom from m_abaco_master`m_zoom within m_view
+end type
+
+on m_zoom.create
+call super::create
+end on
+
+on m_zoom.destroy
+call super::destroy
+end on
+
+type m_insert from m_abaco_master`m_insert within m_abaco_frame_pla
+end type
+
+on m_insert.create
+call super::create
+end on
+
+on m_insert.destroy
+call super::destroy
+end on
+
+type m_insertfile from m_abaco_master`m_insertfile within m_insert
+end type
+
+on m_insertfile.create
+call super::create
+end on
+
+on m_insertfile.destroy
+call super::destroy
+end on
+
+type m_picture from m_abaco_master`m_picture within m_insert
+end type
+
+on m_picture.create
+call super::create
+end on
+
+on m_picture.destroy
+call super::destroy
+end on
+
+type m_dash41 from m_abaco_master`m_dash41 within m_insert
+end type
+
+on m_dash41.create
+call super::create
+end on
+
+on m_dash41.destroy
+call super::destroy
+end on
+
+type m_object from m_abaco_master`m_object within m_insert
+end type
+
+on m_object.create
+call super::create
+end on
+
+on m_object.destroy
+call super::destroy
+end on
+
+type m_tools from m_abaco_master`m_tools within m_abaco_frame_pla
+end type
+
+on m_tools.create
+call super::create
+end on
+
+on m_tools.destroy
+call super::destroy
+end on
+
+type m_toolbars from m_abaco_master`m_toolbars within m_tools
+end type
+
+on m_toolbars.create
+call super::create
+end on
+
+on m_toolbars.destroy
+call super::destroy
+end on
+
+type m_window from m_abaco_master`m_window within m_abaco_frame_pla
+end type
+
+on m_window.create
+call super::create
+end on
+
+on m_window.destroy
+call super::destroy
+end on
+
+type m_cascade from m_abaco_master`m_cascade within m_window
+end type
+
+on m_cascade.create
+call super::create
+end on
+
+on m_cascade.destroy
+call super::destroy
+end on
+
+type m_tilehorizontal from m_abaco_master`m_tilehorizontal within m_window
+end type
+
+on m_tilehorizontal.create
+call super::create
+end on
+
+on m_tilehorizontal.destroy
+call super::destroy
+end on
+
+type m_tilevertical from m_abaco_master`m_tilevertical within m_window
+end type
+
+on m_tilevertical.create
+call super::create
+end on
+
+on m_tilevertical.destroy
+call super::destroy
+end on
+
+type m_layer from m_abaco_master`m_layer within m_window
+end type
+
+on m_layer.create
+call super::create
+end on
+
+on m_layer.destroy
+call super::destroy
+end on
+
+type m_dash51 from m_abaco_master`m_dash51 within m_window
+end type
+
+on m_dash51.create
+call super::create
+end on
+
+on m_dash51.destroy
+call super::destroy
+end on
+
+type m_minimizeall from m_abaco_master`m_minimizeall within m_window
+end type
+
+on m_minimizeall.create
+call super::create
+end on
+
+on m_minimizeall.destroy
+call super::destroy
+end on
+
+type m_undoarrange from m_abaco_master`m_undoarrange within m_window
+end type
+
+on m_undoarrange.create
+call super::create
+end on
+
+on m_undoarrange.destroy
+call super::destroy
+end on
+
+type m_help from m_abaco_master`m_help within m_abaco_frame_pla
+end type
+
+on m_help.create
+call super::create
+end on
+
+on m_help.destroy
+call super::destroy
+end on
+
+type m_helptopics from m_abaco_master`m_helptopics within m_help
+end type
+
+on m_helptopics.create
+call super::create
+end on
+
+on m_helptopics.destroy
+call super::destroy
+end on
+
+type m_dash61 from m_abaco_master`m_dash61 within m_help
+end type
+
+on m_dash61.create
+call super::create
+end on
+
+on m_dash61.destroy
+call super::destroy
+end on
+
+type m_about from m_abaco_master`m_about within m_help
+end type
+
+on m_about.create
+call super::create
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+
+type m_aplicaciones from m_abaco_master`m_aplicaciones within m_abaco_frame_pla
+end type
+
+on m_aplicaciones.create
+call super::create
+end on
+
+on m_aplicaciones.destroy
+call super::destroy
+end on
+
+type m_mayor from m_abaco_master`m_mayor within m_aplicaciones
+end type
+
+on m_mayor.create
+call super::create
+end on
+
+on m_mayor.destroy
+call super::destroy
+end on
+
+type m_inventario from m_abaco_master`m_inventario within m_aplicaciones
+end type
+
+on m_inventario.create
+call super::create
+end on
+
+on m_inventario.destroy
+call super::destroy
+end on
+
+type m_compras from m_abaco_master`m_compras within m_aplicaciones
+end type
+
+on m_compras.create
+call super::create
+end on
+
+on m_compras.destroy
+call super::destroy
+end on
+
+type m_cuentasporpagar from m_abaco_master`m_cuentasporpagar within m_aplicaciones
+end type
+
+on m_cuentasporpagar.create
+call super::create
+end on
+
+on m_cuentasporpagar.destroy
+call super::destroy
+end on
+
+type m_cuentasporcobrar from m_abaco_master`m_cuentasporcobrar within m_aplicaciones
+end type
+
+on m_cuentasporcobrar.create
+call super::create
+end on
+
+on m_cuentasporcobrar.destroy
+call super::destroy
+end on
+
+type m_banco from m_abaco_master`m_banco within m_aplicaciones
+end type
+
+on m_banco.create
+call super::create
+end on
+
+on m_banco.destroy
+call super::destroy
+end on
+
+type m_facturación from m_abaco_master`m_facturación within m_aplicaciones
+end type
+
+on m_facturación.create
+call super::create
+end on
+
+on m_facturación.destroy
+call super::destroy
+end on
+
+type m_cajamenuda from m_abaco_master`m_cajamenuda within m_aplicaciones
+end type
+
+on m_cajamenuda.create
+call super::create
+end on
+
+on m_cajamenuda.destroy
+call super::destroy
+end on
+
+type m_planilla from m_abaco_master`m_planilla within m_aplicaciones
+end type
+
+on m_planilla.create
+call super::create
+end on
+
+on m_planilla.destroy
+call super::destroy
+end on
+
+type m_activofijo from m_abaco_master`m_activofijo within m_aplicaciones
+end type
+
+on m_activofijo.create
+call super::create
+end on
+
+on m_activofijo.destroy
+call super::destroy
+end on
+
+type m_costosdeproduccion from m_abaco_master`m_costosdeproduccion within m_aplicaciones
+end type
+
+on m_costosdeproduccion.create
+call super::create
+end on
+
+on m_costosdeproduccion.destroy
+call super::destroy
+end on
+
+type m_setup from m_abaco_master`m_setup within m_aplicaciones
+end type
+
+on m_setup.create
+call super::create
+end on
+
+on m_setup.destroy
+call super::destroy
+end on
+
+type m_mantenimiento from menu within m_abaco_frame_pla
+m_cargosopuestos m_cargosopuestos
+m_turnosdetrabajo m_turnosdetrabajo
+m_empleados m_empleados
+m_acreedores m_acreedores
+m_deduccionescomerciales m_deduccionescomerciales
+m_ajustepagosacreedores0 m_ajustepagosacreedores0
+m_turnospordia0 m_turnospordia0
+m_certificadosmedico m_certificadosmedico
+m_reemplazos m_reemplazos
+m_deduccionesadicionales m_deduccionesadicionales
+m_permisossindicales m_permisossindicales
+m_constancias m_constancias
+m_riesgosprofesionales m_riesgosprofesionales
+end type
+
+on m_mantenimiento.create
+call super::create
+this.text = "&Mantenimiento"
+this.m_cargosopuestos=create m_cargosopuestos
+this.m_turnosdetrabajo=create m_turnosdetrabajo
+this.m_empleados=create m_empleados
+this.m_acreedores=create m_acreedores
+this.m_deduccionescomerciales=create m_deduccionescomerciales
+this.m_ajustepagosacreedores0=create m_ajustepagosacreedores0
+this.m_turnospordia0=create m_turnospordia0
+this.m_certificadosmedico=create m_certificadosmedico
+this.m_reemplazos=create m_reemplazos
+this.m_deduccionesadicionales=create m_deduccionesadicionales
+this.m_permisossindicales=create m_permisossindicales
+this.m_constancias=create m_constancias
+this.m_riesgosprofesionales=create m_riesgosprofesionales
+this.Item[UpperBound(this.Item)+1]=this.m_cargosopuestos
+this.Item[UpperBound(this.Item)+1]=this.m_turnosdetrabajo
+this.Item[UpperBound(this.Item)+1]=this.m_empleados
+this.Item[UpperBound(this.Item)+1]=this.m_acreedores
+this.Item[UpperBound(this.Item)+1]=this.m_deduccionescomerciales
+this.Item[UpperBound(this.Item)+1]=this.m_ajustepagosacreedores0
+this.Item[UpperBound(this.Item)+1]=this.m_turnospordia0
+this.Item[UpperBound(this.Item)+1]=this.m_certificadosmedico
+this.Item[UpperBound(this.Item)+1]=this.m_reemplazos
+this.Item[UpperBound(this.Item)+1]=this.m_deduccionesadicionales
+this.Item[UpperBound(this.Item)+1]=this.m_permisossindicales
+this.Item[UpperBound(this.Item)+1]=this.m_constancias
+this.Item[UpperBound(this.Item)+1]=this.m_riesgosprofesionales
+end on
+
+on m_mantenimiento.destroy
+call super::destroy
+destroy(this.m_cargosopuestos)
+destroy(this.m_turnosdetrabajo)
+destroy(this.m_empleados)
+destroy(this.m_acreedores)
+destroy(this.m_deduccionescomerciales)
+destroy(this.m_ajustepagosacreedores0)
+destroy(this.m_turnospordia0)
+destroy(this.m_certificadosmedico)
+destroy(this.m_reemplazos)
+destroy(this.m_deduccionesadicionales)
+destroy(this.m_permisossindicales)
+destroy(this.m_constancias)
+destroy(this.m_riesgosprofesionales)
+end on
+
+type m_cargosopuestos from menu within m_mantenimiento
+end type
+
+on m_cargosopuestos.create
+call super::create
+this.text = "&Cargos o Puestos"
+end on
+
+on m_cargosopuestos.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_rhucargo"
+gs_parms.title				=	"Cargos o puestos de la empresa"
+message.StringParm 		= 	"w_maestro_planilla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+type m_turnosdetrabajo from menu within m_mantenimiento
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_rhuturno"
+gs_parms.datawindow[2]	=	"d_rhu_horas_adicionales"
+
+gs_parms.title				=	"Turnos de Trabajo"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+on m_turnosdetrabajo.create
+call super::create
+this.text = "&Turnos de Trabajo"
+end on
+
+on m_turnosdetrabajo.destroy
+call super::destroy
+end on
+
+type m_empleados from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[]	=	{''}
+gs_parms.argumentos[]	=	{''}
+
+gs_parms.datawindow[1]	=	"d_rhuempl1"
+gs_parms.datawindow[2]	=	"d_rhuempl2"
+gs_parms.datawindow[3]  =  "d_rhugremp"
+gs_parms.argumentos[1]	=	"Datos del empleado "
+gs_parms.argumentos[2]	=	"Datos de planilla"
+gs_parms.argumentos[3]	=	"Agrupación"
+gs_parms.title				=	"Información del Empleado"
+message.StringParm 	= 	"w_maestro_tab"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+//gs_parms.datawindow[1]	=	"d_cxcfact1"
+//gs_parms.datawindow[2]	=	"d_cxcfact2"
+//gs_parms.datawindow[3]	=	"d_cxcfact3"
+//
+//gs_parms.title				=	"Registro de Facturas"
+//message.StringParm 		= 	"w_master_detail_3n_2"
+//message.PowerObjectParm = 	gs_parms
+//of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_empleados.create
+call super::create
+this.text = "&Empleados"
+end on
+
+on m_empleados.destroy
+call super::destroy
+end on
+
+type m_acreedores from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_rhuacre"
+gs_parms.title				=	"Acreedores"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+
+
+
+
+
+
+end event
+
+on m_acreedores.create
+call super::create
+this.text = "&Acreedores"
+end on
+
+on m_acreedores.destroy
+call super::destroy
+end on
+
+type m_deduccionescomerciales from menu within m_mantenimiento
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nomacrem"
+gs_parms.datawindow[2]	=	"d_nomdedu"
+
+gs_parms.title				=	"Deducciones de los empleado"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+on m_deduccionescomerciales.create
+call super::create
+this.text = "&Deducciones Comerciales"
+end on
+
+on m_deduccionescomerciales.destroy
+call super::destroy
+end on
+
+type m_ajustepagosacreedores0 from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_nom_ajuste_pagos_acreedores"
+gs_parms.title				=	"Ajuste de Pagos a Acreedores"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_ajustepagosacreedores0.create
+call super::create
+this.text = "&Ajuste Pagos Acreedores"
+end on
+
+on m_ajustepagosacreedores0.destroy
+call super::destroy
+end on
+
+type m_turnospordia0 from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_rhuturno_x_dia"
+gs_parms.title				=	"Asignacion de Turnos por Dia"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_turnospordia0.create
+call super::create
+this.text = "&Turnos por Dia"
+end on
+
+on m_turnospordia0.destroy
+call super::destroy
+end on
+
+type m_certificadosmedico from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_placertificadosmedico"
+gs_parms.title				=	"Registro de Certificados Medico por Incapacidad"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_certificadosmedico.create
+call super::create
+this.text = "&Certificados Medico"
+end on
+
+on m_certificadosmedico.destroy
+call super::destroy
+end on
+
+type m_reemplazos from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_plareemplazos"
+gs_parms.title				=	"Registro de Reemplazos"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_reemplazos.create
+call super::create
+this.text = "&Reemplazos"
+end on
+
+on m_reemplazos.destroy
+call super::destroy
+end on
+
+type m_deduccionesadicionales from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_pladeduccionesadicionales"
+gs_parms.title				=	"Registro de Deducciones Adicionales"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_deduccionesadicionales.create
+call super::create
+this.text = "&Deducciones Adicionales"
+end on
+
+on m_deduccionesadicionales.destroy
+call super::destroy
+end on
+
+type m_permisossindicales from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_plapermisosindical"
+gs_parms.title				=	"Registro de Permisos Sindicales"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_permisossindicales.create
+call super::create
+this.text = "&Permisos Sindicales"
+end on
+
+on m_permisossindicales.destroy
+call super::destroy
+end on
+
+type m_constancias from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_constancias"
+gs_parms.title				=	"Registro de Constancias"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_constancias.create
+call super::create
+this.text = "&Constancias"
+end on
+
+on m_constancias.destroy
+call super::destroy
+end on
+
+type m_riesgosprofesionales from menu within m_mantenimiento
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_riesgos_profesionales"
+gs_parms.title				=	"Registro de Riesgos Profesionales"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_riesgosprofesionales.create
+call super::create
+this.text = "&Riesgos Profesionales"
+end on
+
+on m_riesgosprofesionales.destroy
+call super::destroy
+end on
+
+type m_parametros from menu within m_abaco_frame_pla
+m_departamentosecciones m_departamentosecciones
+m_recargosdehorasextras m_recargosdehorasextras
+m_tipo_planilla m_tipo_planilla
+m_díasferiados m_díasferiados
+m_tabla_imp_srenta m_tabla_imp_srenta
+m_conceptosdeplanilla m_conceptosdeplanilla
+m_tipodecalculos m_tipodecalculos
+m_clavesdeir m_clavesdeir
+m_afectacioncontable m_afectacioncontable
+m_planillapreelaborada m_planillapreelaborada
+end type
+
+on m_parametros.create
+call super::create
+this.text = "&Parametros"
+this.m_departamentosecciones=create m_departamentosecciones
+this.m_recargosdehorasextras=create m_recargosdehorasextras
+this.m_tipo_planilla=create m_tipo_planilla
+this.m_díasferiados=create m_díasferiados
+this.m_tabla_imp_srenta=create m_tabla_imp_srenta
+this.m_conceptosdeplanilla=create m_conceptosdeplanilla
+this.m_tipodecalculos=create m_tipodecalculos
+this.m_clavesdeir=create m_clavesdeir
+this.m_afectacioncontable=create m_afectacioncontable
+this.m_planillapreelaborada=create m_planillapreelaborada
+this.Item[UpperBound(this.Item)+1]=this.m_departamentosecciones
+this.Item[UpperBound(this.Item)+1]=this.m_recargosdehorasextras
+this.Item[UpperBound(this.Item)+1]=this.m_tipo_planilla
+this.Item[UpperBound(this.Item)+1]=this.m_díasferiados
+this.Item[UpperBound(this.Item)+1]=this.m_tabla_imp_srenta
+this.Item[UpperBound(this.Item)+1]=this.m_conceptosdeplanilla
+this.Item[UpperBound(this.Item)+1]=this.m_tipodecalculos
+this.Item[UpperBound(this.Item)+1]=this.m_clavesdeir
+this.Item[UpperBound(this.Item)+1]=this.m_afectacioncontable
+this.Item[UpperBound(this.Item)+1]=this.m_planillapreelaborada
+end on
+
+on m_parametros.destroy
+call super::destroy
+destroy(this.m_departamentosecciones)
+destroy(this.m_recargosdehorasextras)
+destroy(this.m_tipo_planilla)
+destroy(this.m_díasferiados)
+destroy(this.m_tabla_imp_srenta)
+destroy(this.m_conceptosdeplanilla)
+destroy(this.m_tipodecalculos)
+destroy(this.m_clavesdeir)
+destroy(this.m_afectacioncontable)
+destroy(this.m_planillapreelaborada)
+end on
+
+type m_departamentosecciones from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_departamentos"
+gs_parms.datawindow[2]	=	"d_secciones"
+gs_parms.title				=	"Departamentos / Secciones"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_departamentosecciones.create
+call super::create
+this.text = "&Departamento/Secciones"
+end on
+
+on m_departamentosecciones.destroy
+call super::destroy
+end on
+
+type m_recargosdehorasextras from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomtipodehoras"
+gs_parms.title			=	"Tipo de horas"
+message.StringParm 	= 	"w_maestro_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+end event
+
+on m_recargosdehorasextras.create
+call super::create
+this.text = "&Tipo de Horas"
+end on
+
+on m_recargosdehorasextras.destroy
+call super::destroy
+end on
+
+type m_tipo_planilla from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nomtpla"
+gs_parms.datawindow[2]	=	"d_nomtpla2"
+
+gs_parms.title				=	"Tipos de Planilla"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+on m_tipo_planilla.create
+call super::create
+this.text = "Tipo de planillas"
+end on
+
+on m_tipo_planilla.destroy
+call super::destroy
+end on
+
+type m_díasferiados from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomdfer"
+gs_parms.title			=	"Días Feriados"
+message.StringParm 	= 	"w_maestro_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+end event
+
+on m_díasferiados.create
+call super::create
+this.text = "Días feriados"
+end on
+
+on m_díasferiados.destroy
+call super::destroy
+end on
+
+type m_tabla_imp_srenta from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomimrta"
+gs_parms.title			=	"Tabla de I/S la renta"
+message.StringParm 	= 	"w_maestro_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+end event
+
+on m_tabla_imp_srenta.create
+call super::create
+this.text = "Tabla de I/S renta"
+end on
+
+on m_tabla_imp_srenta.destroy
+call super::destroy
+end on
+
+type m_conceptosdeplanilla from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nomconce"
+gs_parms.datawindow[2]	=	"d_nom_conceptos_para_calculo"
+
+gs_parms.title				=	"Conceptos de Planilla"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+on m_conceptosdeplanilla.create
+call super::create
+this.text = "&Conceptos de Planilla"
+end on
+
+on m_conceptosdeplanilla.destroy
+call super::destroy
+end on
+
+type m_tipodecalculos from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nom_tipo_de_calculo"
+gs_parms.datawindow[2]	=	"d_nomrelac"
+
+gs_parms.title				=	"Tipos de Calculo"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+on m_tipodecalculos.create
+call super::create
+this.text = "&Tipo de Calculos"
+end on
+
+on m_tipodecalculos.destroy
+call super::destroy
+end on
+
+type m_clavesdeir from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_rhuclvim"
+gs_parms.title				=	"Clave de impuesto S/R"
+message.StringParm 		= 	"w_maestro_cgl"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_clavesdeir.create
+call super::create
+this.text = "&Claves de I/R"
+end on
+
+on m_clavesdeir.destroy
+call super::destroy
+end on
+
+type m_afectacioncontable from menu within m_parametros
+event clicked ( )
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_afectacion_contable"
+gs_parms.title				=	"Afectacion Contable por Departamento"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+on m_afectacioncontable.create
+call super::create
+this.text = "&Afectacion Contable"
+end on
+
+on m_afectacioncontable.destroy
+call super::destroy
+end on
+
+type m_planillapreelaborada from menu within m_parametros
+m_registro m_registro
+m_listado m_listado
+end type
+
+on m_planillapreelaborada.create
+call super::create
+this.text = "&Planilla Preelaborada"
+this.m_registro=create m_registro
+this.m_listado=create m_listado
+this.Item[UpperBound(this.Item)+1]=this.m_registro
+this.Item[UpperBound(this.Item)+1]=this.m_listado
+end on
+
+on m_planillapreelaborada.destroy
+call super::destroy
+destroy(this.m_registro)
+destroy(this.m_listado)
+end on
+
+type m_registro from menu within m_planillapreelaborada
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_pla_preelaborada1"
+gs_parms.datawindow[2]	=	"d_pla_preelaborada2"
+gs_parms.title				=	"Registro de Planilla Preelaboradas Pasadas"
+message.StringParm 		= 	"w_master_detail_1_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_registro.create
+call super::create
+this.text = "&Registro"
+end on
+
+on m_registro.destroy
+call super::destroy
+end on
+
+type m_listado from menu within m_planillapreelaborada
+event clicked ( )
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_pla_preelaborada'
+gs_parms.title				=	"Informe de Planilla Preelaborada"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_listado.create
+call super::create
+this.text = "&Listado"
+end on
+
+on m_listado.destroy
+call super::destroy
+end on
+
+type m_planillaregular0 from menu within m_abaco_frame_pla
+m_creartarjetadetiempo m_creartarjetadetiempo
+m_ajustedetarjetadetiempo m_ajustedetarjetadetiempo
+m_ajustedehoras20 m_ajustedehoras20
+m_0 m_0
+m_1 m_1
+m_calculoextemporaneo m_calculoextemporaneo
+m_ajustedelcalculo m_ajustedelcalculo
+m_listados0 m_listados0
+end type
+
+on m_planillaregular0.create
+call super::create
+this.text = "&Planilla Regular"
+this.m_creartarjetadetiempo=create m_creartarjetadetiempo
+this.m_ajustedetarjetadetiempo=create m_ajustedetarjetadetiempo
+this.m_ajustedehoras20=create m_ajustedehoras20
+this.m_0=create m_0
+this.m_1=create m_1
+this.m_calculoextemporaneo=create m_calculoextemporaneo
+this.m_ajustedelcalculo=create m_ajustedelcalculo
+this.m_listados0=create m_listados0
+this.Item[UpperBound(this.Item)+1]=this.m_creartarjetadetiempo
+this.Item[UpperBound(this.Item)+1]=this.m_ajustedetarjetadetiempo
+this.Item[UpperBound(this.Item)+1]=this.m_ajustedehoras20
+this.Item[UpperBound(this.Item)+1]=this.m_0
+this.Item[UpperBound(this.Item)+1]=this.m_1
+this.Item[UpperBound(this.Item)+1]=this.m_calculoextemporaneo
+this.Item[UpperBound(this.Item)+1]=this.m_ajustedelcalculo
+this.Item[UpperBound(this.Item)+1]=this.m_listados0
+end on
+
+on m_planillaregular0.destroy
+call super::destroy
+destroy(this.m_creartarjetadetiempo)
+destroy(this.m_ajustedetarjetadetiempo)
+destroy(this.m_ajustedehoras20)
+destroy(this.m_0)
+destroy(this.m_1)
+destroy(this.m_calculoextemporaneo)
+destroy(this.m_ajustedelcalculo)
+destroy(this.m_listados0)
+end on
+
+type m_creartarjetadetiempo from menu within m_planillaregular0
+end type
+
+on m_creartarjetadetiempo.create
+call super::create
+this.text = "&Crear Tarjeta de Tiempo"
+end on
+
+on m_creartarjetadetiempo.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_rhuempl"
+gs_parms.datawindow[2]	=	"d_parametros_hoja_d_tiempo"
+
+gs_parms.title				=	"Proceso que genera Hoja de Tiempo de los Empleados"
+message.StringParm 		= 	"w_proceso_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_ajustedetarjetadetiempo from menu within m_planillaregular0
+end type
+
+on m_ajustedetarjetadetiempo.create
+call super::create
+this.text = "&Ajuste de Tarjeta de Tiempo"
+end on
+
+on m_ajustedetarjetadetiempo.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomhrtrab"
+gs_parms.title			=	"Registro Diario de Tarjeta de Tiempo"
+message.StringParm 	= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+end event
+
+type m_ajustedehoras20 from menu within m_planillaregular0
+end type
+
+on m_ajustedehoras20.create
+call super::create
+this.text = "&Ajuste de Horas"
+end on
+
+on m_ajustedehoras20.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nomhoras_1"
+gs_parms.datawindow[2]	=	"d_nomhoras_2"
+gs_parms.title				=	"Ajustes de Horas"
+message.StringParm 		= 	"w_master_detail_1_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_0 from menu within m_planillaregular0
+end type
+
+on m_0.create
+call super::create
+this.text = "&Otros Ingresos"
+end on
+
+on m_0.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_nom_otros_ingresos"
+gs_parms.title			=	"Registro de otros ingresos"
+message.StringParm 	= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+end event
+
+type m_1 from menu within m_planillaregular0
+end type
+
+on m_1.create
+call super::create
+this.text = "&Calculo"
+end on
+
+on m_1.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_rhuempl"
+gs_parms.title				=	"Calculo de la planilla regular"
+message.StringParm 		= 	"w_proceso_calculo_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_calculoextemporaneo from menu within m_planillaregular0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_rhuempl_for_extempo"
+gs_parms.title				=	"Calculo de la planilla regular extemporanea"
+message.StringParm 		= 	"w_proceso_calculo_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_calculoextemporaneo.create
+call super::create
+this.text = "&Calculo Extemporaneo"
+end on
+
+on m_calculoextemporaneo.destroy
+call super::destroy
+end on
+
+type m_ajustedelcalculo from menu within m_planillaregular0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_nomctrac_1"
+gs_parms.datawindow[2]	=	"d_nomctrac_2"
+gs_parms.title				=	"Ajustes del Calculo de la Planilla Regular"
+message.StringParm 		= 	"w_master_detail_1_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_ajustedelcalculo.create
+call super::create
+this.text = "&Ajuste del Calculo"
+end on
+
+on m_ajustedelcalculo.destroy
+call super::destroy
+end on
+
+type m_listados0 from menu within m_planillaregular0
+m_tarjetadetiempo0 m_tarjetadetiempo0
+m_horasvertical0 m_horasvertical0
+m_resumendehorasporperiodo1 m_resumendehorasporperiodo1
+m_horasporperiodoresumido m_horasporperiodoresumido
+m_horasporperiododetallado m_horasporperiododetallado
+m_planillahorizonal m_planillahorizonal
+m_2 m_2
+m_sobredepagosemanal m_sobredepagosemanal
+m_desglocedeplanilla m_desglocedeplanilla
+end type
+
+on m_listados0.create
+call super::create
+this.text = "&Listados"
+this.m_tarjetadetiempo0=create m_tarjetadetiempo0
+this.m_horasvertical0=create m_horasvertical0
+this.m_resumendehorasporperiodo1=create m_resumendehorasporperiodo1
+this.m_horasporperiodoresumido=create m_horasporperiodoresumido
+this.m_horasporperiododetallado=create m_horasporperiododetallado
+this.m_planillahorizonal=create m_planillahorizonal
+this.m_2=create m_2
+this.m_sobredepagosemanal=create m_sobredepagosemanal
+this.m_desglocedeplanilla=create m_desglocedeplanilla
+this.Item[UpperBound(this.Item)+1]=this.m_tarjetadetiempo0
+this.Item[UpperBound(this.Item)+1]=this.m_horasvertical0
+this.Item[UpperBound(this.Item)+1]=this.m_resumendehorasporperiodo1
+this.Item[UpperBound(this.Item)+1]=this.m_horasporperiodoresumido
+this.Item[UpperBound(this.Item)+1]=this.m_horasporperiododetallado
+this.Item[UpperBound(this.Item)+1]=this.m_planillahorizonal
+this.Item[UpperBound(this.Item)+1]=this.m_2
+this.Item[UpperBound(this.Item)+1]=this.m_sobredepagosemanal
+this.Item[UpperBound(this.Item)+1]=this.m_desglocedeplanilla
+end on
+
+on m_listados0.destroy
+call super::destroy
+destroy(this.m_tarjetadetiempo0)
+destroy(this.m_horasvertical0)
+destroy(this.m_resumendehorasporperiodo1)
+destroy(this.m_horasporperiodoresumido)
+destroy(this.m_horasporperiododetallado)
+destroy(this.m_planillahorizonal)
+destroy(this.m_2)
+destroy(this.m_sobredepagosemanal)
+destroy(this.m_desglocedeplanilla)
+end on
+
+type m_tarjetadetiempo0 from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhrtrab'
+gs_parms.title				=	"Listado de Tarjetas de Tiempo"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_tarjetadetiempo0.create
+call super::create
+this.text = "&Tarjeta de Tiempo"
+end on
+
+on m_tarjetadetiempo0.destroy
+call super::destroy
+end on
+
+type m_horasvertical0 from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhoras'
+gs_parms.title				=	"Informe de horas por empleado"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_horasvertical0.create
+call super::create
+this.text = "&Horas (Vertical)"
+end on
+
+on m_horasvertical0.destroy
+call super::destroy
+end on
+
+type m_resumendehorasporperiodo1 from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhoras_resumen'
+gs_parms.title				=	"Resumen de Horas por Periodo"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_resumendehorasporperiodo1.create
+call super::create
+this.text = "&Resumen de Horas por Periodo"
+end on
+
+on m_resumendehorasporperiodo1.destroy
+call super::destroy
+end on
+
+type m_horasporperiodoresumido from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhoras_horizontal_resumido'
+gs_parms.title				=	"Resumen de Horas por Periodo"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_horasporperiodoresumido.create
+call super::create
+this.text = "&Horas por Periodo (Resumido)"
+end on
+
+on m_horasporperiodoresumido.destroy
+call super::destroy
+end on
+
+type m_horasporperiododetallado from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhoras_horizontal_x_fecha'
+gs_parms.title				=	"Resumen de Horas por Periodo"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_horasporperiododetallado.create
+call super::create
+this.text = "&Horas por Periodo (Detallado)"
+end on
+
+on m_horasporperiododetallado.destroy
+call super::destroy
+end on
+
+type m_planillahorizonal from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomctrac_horizontal'
+gs_parms.title				=	"Informe de planilla por Empleado en formato Horizontal"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_planillahorizonal.create
+call super::create
+this.text = "&Planilla (Horizonal)"
+end on
+
+on m_planillahorizonal.destroy
+call super::destroy
+end on
+
+type m_2 from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomctrac'
+gs_parms.title				=	"Desgloce de Pagos por Empleado"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_2.create
+call super::create
+this.text = "&Desgloce de Pagos por Empleado"
+end on
+
+on m_2.destroy
+call super::destroy
+end on
+
+type m_sobredepagosemanal from menu within m_listados0
+end type
+
+event clicked;
+SetNull(gs_condicion)
+gs_parms.datawindow[1]	=	'd_sobre_semanal'
+gs_parms.title				=	"Sobre de Pago Semanal"
+gs_parms.condicion		=	gs_condicion
+
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+end event
+
+on m_sobredepagosemanal.create
+call super::create
+this.text = "&Sobre de Pago Semanal"
+end on
+
+on m_sobredepagosemanal.destroy
+call super::destroy
+end on
+
+type m_desglocedeplanilla from menu within m_listados0
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_pla_desgloce_planilla'
+gs_parms.title				=	"Desgloce de Planilla"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_desglocedeplanilla.create
+call super::create
+this.text = "&Desgloce de Planilla"
+end on
+
+on m_desglocedeplanilla.destroy
+call super::destroy
+end on
+
+type m_procesosdiario from menu within m_abaco_frame_pla
+m_vacaciones0 m_vacaciones0
+m_décimoxiiimes m_décimoxiiimes
+m_liquidación m_liquidación
+m_pagosespeciales m_pagosespeciales
+end type
+
+on m_procesosdiario.create
+call super::create
+this.text = "&Otros Calculos"
+this.m_vacaciones0=create m_vacaciones0
+this.m_décimoxiiimes=create m_décimoxiiimes
+this.m_liquidación=create m_liquidación
+this.m_pagosespeciales=create m_pagosespeciales
+this.Item[UpperBound(this.Item)+1]=this.m_vacaciones0
+this.Item[UpperBound(this.Item)+1]=this.m_décimoxiiimes
+this.Item[UpperBound(this.Item)+1]=this.m_liquidación
+this.Item[UpperBound(this.Item)+1]=this.m_pagosespeciales
+end on
+
+on m_procesosdiario.destroy
+call super::destroy
+destroy(this.m_vacaciones0)
+destroy(this.m_décimoxiiimes)
+destroy(this.m_liquidación)
+destroy(this.m_pagosespeciales)
+end on
+
+type m_vacaciones0 from menu within m_procesosdiario
+m_planificacion m_planificacion
+m_planillavacaciones m_planillavacaciones
+end type
+
+on m_vacaciones0.create
+call super::create
+this.text = "&Vacaciones"
+this.m_planificacion=create m_planificacion
+this.m_planillavacaciones=create m_planillavacaciones
+this.Item[UpperBound(this.Item)+1]=this.m_planificacion
+this.Item[UpperBound(this.Item)+1]=this.m_planillavacaciones
+end on
+
+on m_vacaciones0.destroy
+call super::destroy
+destroy(this.m_planificacion)
+destroy(this.m_planillavacaciones)
+end on
+
+type m_planificacion from menu within m_vacaciones0
+end type
+
+on m_planificacion.create
+call super::create
+this.text = "&Planificacion"
+end on
+
+on m_planificacion.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_pla_vacacion1"
+gs_parms.datawindow[2]	=	"d_pla_vacacion2"
+
+gs_parms.title				=	"Planificacion de Vacaciones"
+message.StringParm 		= 	"w_master_detail_2_abaco"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+end event
+
+type m_planillavacaciones from menu within m_vacaciones0
+end type
+
+on m_planillavacaciones.create
+call super::create
+this.text = "&Calculo de Vacaciones"
+end on
+
+on m_planillavacaciones.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_rhuempl_for_vacacion"
+
+
+gs_parms.title				=	"Calculo de Vacaciones"
+message.StringParm 		= 	"w_proceso_calculo_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_décimoxiiimes from menu within m_procesosdiario
+m_rangodefecha m_rangodefecha
+m_generadorxiiimes m_generadorxiiimes
+end type
+
+on m_décimoxiiimes.create
+call super::create
+this.text = "Décimo XIII mes"
+this.m_rangodefecha=create m_rangodefecha
+this.m_generadorxiiimes=create m_generadorxiiimes
+this.Item[UpperBound(this.Item)+1]=this.m_rangodefecha
+this.Item[UpperBound(this.Item)+1]=this.m_generadorxiiimes
+end on
+
+on m_décimoxiiimes.destroy
+call super::destroy
+destroy(this.m_rangodefecha)
+destroy(this.m_generadorxiiimes)
+end on
+
+type m_rangodefecha from menu within m_décimoxiiimes
+end type
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_xiii"
+gs_parms.title			=	"Rango de Fecha para el calculo del xiii mes"
+message.StringParm 	= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+end event
+
+on m_rangodefecha.create
+call super::create
+this.text = "&Rango de Fecha"
+end on
+
+on m_rangodefecha.destroy
+call super::destroy
+end on
+
+type m_generadorxiiimes from menu within m_décimoxiiimes
+end type
+
+on m_generadorxiiimes.create
+call super::create
+this.text = "Generador  XIII mes"
+end on
+
+on m_generadorxiiimes.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_rhuempl_for_xiii"
+
+
+gs_parms.title				=	"Calculo del XIII mes"
+message.StringParm 		= 	"w_proceso_calculo_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_liquidación from menu within m_procesosdiario
+m_parámetrosdeliquidación m_parámetrosdeliquidación
+m_listadoverificador m_listadoverificador
+m_planilladeliquidación m_planilladeliquidación
+m_afectacióncontable m_afectacióncontable
+m_comprobantesdecheque m_comprobantesdecheque
+m_cierreplanilladeliquidación m_cierreplanilladeliquidación
+m_informeespecialdeliquidación m_informeespecialdeliquidación
+end type
+
+on m_liquidación.create
+call super::create
+this.text = "Liquidación"
+this.m_parámetrosdeliquidación=create m_parámetrosdeliquidación
+this.m_listadoverificador=create m_listadoverificador
+this.m_planilladeliquidación=create m_planilladeliquidación
+this.m_afectacióncontable=create m_afectacióncontable
+this.m_comprobantesdecheque=create m_comprobantesdecheque
+this.m_cierreplanilladeliquidación=create m_cierreplanilladeliquidación
+this.m_informeespecialdeliquidación=create m_informeespecialdeliquidación
+this.Item[UpperBound(this.Item)+1]=this.m_parámetrosdeliquidación
+this.Item[UpperBound(this.Item)+1]=this.m_listadoverificador
+this.Item[UpperBound(this.Item)+1]=this.m_planilladeliquidación
+this.Item[UpperBound(this.Item)+1]=this.m_afectacióncontable
+this.Item[UpperBound(this.Item)+1]=this.m_comprobantesdecheque
+this.Item[UpperBound(this.Item)+1]=this.m_cierreplanilladeliquidación
+this.Item[UpperBound(this.Item)+1]=this.m_informeespecialdeliquidación
+end on
+
+on m_liquidación.destroy
+call super::destroy
+destroy(this.m_parámetrosdeliquidación)
+destroy(this.m_listadoverificador)
+destroy(this.m_planilladeliquidación)
+destroy(this.m_afectacióncontable)
+destroy(this.m_comprobantesdecheque)
+destroy(this.m_cierreplanilladeliquidación)
+destroy(this.m_informeespecialdeliquidación)
+end on
+
+type m_parámetrosdeliquidación from menu within m_liquidación
+end type
+
+on m_parámetrosdeliquidación.create
+call super::create
+this.text = "Parámetros de Liquidación "
+end on
+
+on m_parámetrosdeliquidación.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomtliq"
+gs_parms.title			=	"Variables de Parametro"
+message.StringParm 	= 	"w_maestro_cgl"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+end event
+
+type m_listadoverificador from menu within m_liquidación
+end type
+
+on m_listadoverificador.create
+call super::create
+this.text = "Listado verificador "
+end on
+
+on m_listadoverificador.destroy
+call super::destroy
+end on
+
+type m_planilladeliquidación from menu within m_liquidación
+end type
+
+on m_planilladeliquidación.create
+call super::create
+this.text = "Planilla de Liquidación"
+end on
+
+on m_planilladeliquidación.destroy
+call super::destroy
+end on
+
+type m_afectacióncontable from menu within m_liquidación
+end type
+
+on m_afectacióncontable.create
+call super::create
+this.text = "Afectación contable"
+end on
+
+on m_afectacióncontable.destroy
+call super::destroy
+end on
+
+type m_comprobantesdecheque from menu within m_liquidación
+end type
+
+on m_comprobantesdecheque.create
+call super::create
+this.text = "Comprobantes de Cheque"
+end on
+
+on m_comprobantesdecheque.destroy
+call super::destroy
+end on
+
+type m_cierreplanilladeliquidación from menu within m_liquidación
+end type
+
+on m_cierreplanilladeliquidación.create
+call super::create
+this.text = "Cierre planilla de liquidación"
+end on
+
+on m_cierreplanilladeliquidación.destroy
+call super::destroy
+end on
+
+type m_informeespecialdeliquidación from menu within m_liquidación
+end type
+
+on m_informeespecialdeliquidación.create
+call super::create
+this.text = "Informe Especial de Liquidación"
+end on
+
+on m_informeespecialdeliquidación.destroy
+call super::destroy
+end on
+
+type m_pagosespeciales from menu within m_procesosdiario
+m_8 m_8
+m_9 m_9
+m_10 m_10
+m_11 m_11
+m_20 m_20
+m_21 m_21
+m_querymode m_querymode
+m_recuperar m_recuperar
+end type
+
+on m_pagosespeciales.create
+call super::create
+this.text = "Pagos Especiales"
+this.m_8=create m_8
+this.m_9=create m_9
+this.m_10=create m_10
+this.m_11=create m_11
+this.m_20=create m_20
+this.m_21=create m_21
+this.m_querymode=create m_querymode
+this.m_recuperar=create m_recuperar
+this.Item[UpperBound(this.Item)+1]=this.m_8
+this.Item[UpperBound(this.Item)+1]=this.m_9
+this.Item[UpperBound(this.Item)+1]=this.m_10
+this.Item[UpperBound(this.Item)+1]=this.m_11
+this.Item[UpperBound(this.Item)+1]=this.m_20
+this.Item[UpperBound(this.Item)+1]=this.m_21
+this.Item[UpperBound(this.Item)+1]=this.m_querymode
+this.Item[UpperBound(this.Item)+1]=this.m_recuperar
+end on
+
+on m_pagosespeciales.destroy
+call super::destroy
+destroy(this.m_8)
+destroy(this.m_9)
+destroy(this.m_10)
+destroy(this.m_11)
+destroy(this.m_20)
+destroy(this.m_21)
+destroy(this.m_querymode)
+destroy(this.m_recuperar)
+end on
+
+type m_8 from menu within m_pagosespeciales
+end type
+
+on m_8.create
+call super::create
+this.text = "Registro general de pagos  especiales"
+end on
+
+on m_8.destroy
+call super::destroy
+end on
+
+type m_9 from menu within m_pagosespeciales
+end type
+
+on m_9.create
+call super::create
+this.text = "Calculo de bonificación"
+end on
+
+on m_9.destroy
+call super::destroy
+end on
+
+type m_10 from menu within m_pagosespeciales
+end type
+
+on m_10.create
+call super::create
+this.text = "Auxiliar contable"
+end on
+
+on m_10.destroy
+call super::destroy
+end on
+
+type m_11 from menu within m_pagosespeciales
+end type
+
+on m_11.create
+call super::create
+this.text = "Generar comprobante de cheque"
+end on
+
+on m_11.destroy
+call super::destroy
+end on
+
+type m_20 from menu within m_pagosespeciales
+end type
+
+on m_20.create
+call super::create
+this.text = "Cierre de pagos especiales"
+end on
+
+on m_20.destroy
+call super::destroy
+end on
+
+type m_21 from menu within m_pagosespeciales
+end type
+
+on m_21.create
+call super::create
+this.text = "Informe Especial de Pagos"
+end on
+
+on m_21.destroy
+call super::destroy
+end on
+
+type m_querymode from menu within m_pagosespeciales
+end type
+
+on m_querymode.create
+call super::create
+this.text = "QueryMode"
+this.toolbaritemname = "Query!"
+this.toolbaritemorder = 200
+end on
+
+on m_querymode.destroy
+call super::destroy
+end on
+
+event clicked;integer	li_rc
+of_SendMessage ("ue_querymode")
+
+//li_rc	=	of_SendMessage("of_recuperar")
+//if li_rc = -1 then
+//	messagebox("error","no pudo enviar el mensaje")
+//end if
+//
+end event
+
+type m_recuperar from menu within m_pagosespeciales
+end type
+
+on m_recuperar.create
+call super::create
+this.text = "Recuperar"
+this.toolbaritemname = "Retrieve!"
+this.toolbaritemorder = 500
+end on
+
+on m_recuperar.destroy
+call super::destroy
+end on
+
+event clicked;integer	li_rc
+of_SendMessage ("ue_recuperar")
+
+//li_rc	=	of_SendMessage("of_recuperar")
+//if li_rc = -1 then
+//	messagebox("error","no pudo enviar el mensaje")
+//end if
+//
+end event
+
+type m_otrosprocesos from menu within m_abaco_frame_pla
+m_sobredepago m_sobredepago
+m_chequesdeacreedores m_chequesdeacreedores
+m_chequesdequincena m_chequesdequincena
+m_imprimircheques m_imprimircheques
+end type
+
+on m_otrosprocesos.create
+call super::create
+this.text = "&Otros Procesos"
+this.m_sobredepago=create m_sobredepago
+this.m_chequesdeacreedores=create m_chequesdeacreedores
+this.m_chequesdequincena=create m_chequesdequincena
+this.m_imprimircheques=create m_imprimircheques
+this.Item[UpperBound(this.Item)+1]=this.m_sobredepago
+this.Item[UpperBound(this.Item)+1]=this.m_chequesdeacreedores
+this.Item[UpperBound(this.Item)+1]=this.m_chequesdequincena
+this.Item[UpperBound(this.Item)+1]=this.m_imprimircheques
+end on
+
+on m_otrosprocesos.destroy
+call super::destroy
+destroy(this.m_sobredepago)
+destroy(this.m_chequesdeacreedores)
+destroy(this.m_chequesdequincena)
+destroy(this.m_imprimircheques)
+end on
+
+type m_sobredepago from menu within m_otrosprocesos
+end type
+
+on m_sobredepago.create
+call super::create
+this.text = "&Sobre de Pago"
+end on
+
+on m_sobredepago.destroy
+call super::destroy
+end on
+
+event clicked;
+SetNull(gs_condicion)
+gs_parms.datawindow[1]	=	'd_sobre_semanal'
+gs_parms.title				=	"Sobre de Pago Semanal"
+gs_parms.condicion		=	gs_condicion
+
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+end event
+
+type m_chequesdeacreedores from menu within m_otrosprocesos
+end type
+
+on m_chequesdeacreedores.create
+call super::create
+this.text = "&Cheques de Acreedores"
+end on
+
+on m_chequesdeacreedores.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_cheques_acreedores"
+gs_parms.title				=	"Genera Solicitud de Cheque de Acreedores"
+message.StringParm 		= 	"w_proceso_cheques_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_chequesdequincena from menu within m_otrosprocesos
+end type
+
+on m_chequesdequincena.create
+call super::create
+this.text = "&Cheques de Planilla"
+end on
+
+on m_chequesdequincena.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_cheques_quincena"
+gs_parms.title				=	"Genera Solicitud de Cheque de Quincena"
+message.StringParm 		= 	"w_proceso_cheques_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_imprimircheques from menu within m_otrosprocesos
+end type
+
+on m_imprimircheques.create
+call super::create
+this.text = "&Imprimir Cheques"
+end on
+
+on m_imprimircheques.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_imprime_cheques"
+gs_parms.title				=	"Proceso de Impresion de Cheques"
+message.StringParm 		= 	"w_proceso_cheques"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_informesespeciales from menu within m_abaco_frame_pla
+m_desglocedeplanilla0 m_desglocedeplanilla0
+m_desglocedehoras m_desglocedehoras
+m_descuentosporacreedor m_descuentosporacreedor
+m_descuentosporempleado m_descuentosporempleado
+m_desctosporempleado m_desctosporempleado
+m_balanceporacreedor-empleado m_balanceporacreedor-empleado
+m_saldodeacreedores m_saldodeacreedores
+m_saldodeacreedoresacreedor m_saldodeacreedoresacreedor
+m_catalogodeempleados m_catalogodeempleados
+m_certificadosmedico0 m_certificadosmedico0
+m_resumendehorasporperiodo m_resumendehorasporperiodo
+m_planilla0 m_planilla0
+m_desglosedepagos m_desglosedepagos
+m_reportepre-elaboradamensual m_reportepre-elaboradamensual
+m_generacióndearchivoascii m_generacióndearchivoascii
+m_sobre85x11 m_sobre85x11
+m_empleado m_empleado
+end type
+
+on m_informesespeciales.create
+call super::create
+this.text = "&Consultas / Informes"
+this.m_desglocedeplanilla0=create m_desglocedeplanilla0
+this.m_desglocedehoras=create m_desglocedehoras
+this.m_descuentosporacreedor=create m_descuentosporacreedor
+this.m_descuentosporempleado=create m_descuentosporempleado
+this.m_desctosporempleado=create m_desctosporempleado
+this.m_balanceporacreedor-empleado=create m_balanceporacreedor-empleado
+this.m_saldodeacreedores=create m_saldodeacreedores
+this.m_saldodeacreedoresacreedor=create m_saldodeacreedoresacreedor
+this.m_catalogodeempleados=create m_catalogodeempleados
+this.m_certificadosmedico0=create m_certificadosmedico0
+this.m_resumendehorasporperiodo=create m_resumendehorasporperiodo
+this.m_planilla0=create m_planilla0
+this.m_desglosedepagos=create m_desglosedepagos
+this.m_reportepre-elaboradamensual=create m_reportepre-elaboradamensual
+this.m_generacióndearchivoascii=create m_generacióndearchivoascii
+this.m_sobre85x11=create m_sobre85x11
+this.m_empleado=create m_empleado
+this.Item[UpperBound(this.Item)+1]=this.m_desglocedeplanilla0
+this.Item[UpperBound(this.Item)+1]=this.m_desglocedehoras
+this.Item[UpperBound(this.Item)+1]=this.m_descuentosporacreedor
+this.Item[UpperBound(this.Item)+1]=this.m_descuentosporempleado
+this.Item[UpperBound(this.Item)+1]=this.m_desctosporempleado
+this.Item[UpperBound(this.Item)+1]=this.m_balanceporacreedor-empleado
+this.Item[UpperBound(this.Item)+1]=this.m_saldodeacreedores
+this.Item[UpperBound(this.Item)+1]=this.m_saldodeacreedoresacreedor
+this.Item[UpperBound(this.Item)+1]=this.m_catalogodeempleados
+this.Item[UpperBound(this.Item)+1]=this.m_certificadosmedico0
+this.Item[UpperBound(this.Item)+1]=this.m_resumendehorasporperiodo
+this.Item[UpperBound(this.Item)+1]=this.m_planilla0
+this.Item[UpperBound(this.Item)+1]=this.m_desglosedepagos
+this.Item[UpperBound(this.Item)+1]=this.m_reportepre-elaboradamensual
+this.Item[UpperBound(this.Item)+1]=this.m_generacióndearchivoascii
+this.Item[UpperBound(this.Item)+1]=this.m_sobre85x11
+this.Item[UpperBound(this.Item)+1]=this.m_empleado
+end on
+
+on m_informesespeciales.destroy
+call super::destroy
+destroy(this.m_desglocedeplanilla0)
+destroy(this.m_desglocedehoras)
+destroy(this.m_descuentosporacreedor)
+destroy(this.m_descuentosporempleado)
+destroy(this.m_desctosporempleado)
+destroy(this.m_balanceporacreedor-empleado)
+destroy(this.m_saldodeacreedores)
+destroy(this.m_saldodeacreedoresacreedor)
+destroy(this.m_catalogodeempleados)
+destroy(this.m_certificadosmedico0)
+destroy(this.m_resumendehorasporperiodo)
+destroy(this.m_planilla0)
+destroy(this.m_desglosedepagos)
+destroy(this.m_reportepre-elaboradamensual)
+destroy(this.m_generacióndearchivoascii)
+destroy(this.m_sobre85x11)
+destroy(this.m_empleado)
+end on
+
+type m_desglocedeplanilla0 from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_pla_desgloce_planilla'
+gs_parms.title				=	"Desgloce de Planilla"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_desglocedeplanilla0.create
+call super::create
+this.text = "&Desgloce de Planilla"
+end on
+
+on m_desglocedeplanilla0.destroy
+call super::destroy
+end on
+
+type m_desglocedehoras from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_pla_desgloce_horas'
+gs_parms.title				=	"Desgloce de Horas"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_desglocedehoras.create
+call super::create
+this.text = "&Desgloce de Horas"
+end on
+
+on m_desglocedehoras.destroy
+call super::destroy
+end on
+
+type m_descuentosporacreedor from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_desctos_x_acreedor'
+gs_parms.title				=	"Listado de Descuentos por Acreedor"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_descuentosporacreedor.create
+call super::create
+this.text = "&Descuentos por Acreedor"
+end on
+
+on m_descuentosporacreedor.destroy
+call super::destroy
+end on
+
+type m_descuentosporempleado from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_desctos_x_empleado'
+gs_parms.title				=	"Listado de Descuentos por Empleado"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_descuentosporempleado.create
+call super::create
+this.text = "&Descuentos por Empleado"
+end on
+
+on m_descuentosporempleado.destroy
+call super::destroy
+end on
+
+type m_desctosporempleado from menu within m_informesespeciales
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_pla_informe_nomdedu'
+gs_parms.title				=	"Descuentos por Empleado"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_desctosporempleado.create
+call super::create
+this.text = "&Deducciones Comerciales"
+end on
+
+on m_desctosporempleado.destroy
+call super::destroy
+end on
+
+type m_balanceporacreedor-empleado from menu within m_informesespeciales
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_list_pla_balance_acreedores'
+gs_parms.title				=	"Balance por Acreedor-Empleado"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_balanceporacreedor-empleado.create
+call super::create
+this.text = "&Balance por Acreedor-Empleado"
+end on
+
+on m_balanceporacreedor-empleado.destroy
+call super::destroy
+end on
+
+type m_saldodeacreedores from menu within m_informesespeciales
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_pla_saldo_acreedores'
+gs_parms.title				=	"Saldo de Acreedores por Empleado"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_saldodeacreedores.create
+call super::create
+this.text = "&Saldo de Acreedores (Empleado)"
+end on
+
+on m_saldodeacreedores.destroy
+call super::destroy
+end on
+
+type m_saldodeacreedoresacreedor from menu within m_informesespeciales
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_pla_saldo_acreedores_x_acreedor'
+gs_parms.title				=	"Saldo de Acreedores por Acreedor"
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_saldodeacreedoresacreedor.create
+call super::create
+this.text = "&Saldo de Acreedores (Acreedor)"
+end on
+
+on m_saldodeacreedoresacreedor.destroy
+call super::destroy
+end on
+
+type m_catalogodeempleados from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_rhuempl'
+gs_parms.title				=	"Catalog de Empleados"
+OpenWithParm(w_response_abaco_cia, gs_parms)
+
+
+
+end event
+
+on m_catalogodeempleados.create
+call super::create
+this.text = "&Catalogo de Empleados"
+end on
+
+on m_catalogodeempleados.destroy
+call super::destroy
+end on
+
+type m_certificadosmedico0 from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_placertificadosmedico'
+gs_parms.title				=	"Listado de Certificados Medico"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_certificadosmedico0.create
+call super::create
+this.text = "&Certificados Medico"
+end on
+
+on m_certificadosmedico0.destroy
+call super::destroy
+end on
+
+type m_resumendehorasporperiodo from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomhoras_resumen'
+gs_parms.title				=	"Resumen de Horas por Periodo"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_resumendehorasporperiodo.create
+call super::create
+this.text = "&Resumen de Horas por Periodo"
+end on
+
+on m_resumendehorasporperiodo.destroy
+call super::destroy
+end on
+
+type m_planilla0 from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	'd_list_nomctrac'
+gs_parms.title				=	"Informe de planilla por Empleado"
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+on m_planilla0.create
+call super::create
+this.text = "&Planilla"
+end on
+
+on m_planilla0.destroy
+call super::destroy
+end on
+
+type m_desglosedepagos from menu within m_informesespeciales
+end type
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_nomctrac"
+
+
+gs_parms.title				=	"Informe de Desglose de Pagos"
+message.StringParm 		= 	"w_informe_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_desglosedepagos.create
+call super::create
+this.text = "&Desglose de Pagos"
+end on
+
+on m_desglosedepagos.destroy
+call super::destroy
+end on
+
+type m_reportepre-elaboradamensual from menu within m_informesespeciales
+end type
+
+on m_reportepre-elaboradamensual.create
+call super::create
+this.text = "Reporte Pre-elaborada mensual"
+end on
+
+on m_reportepre-elaboradamensual.destroy
+call super::destroy
+end on
+
+event clicked;
+gs_parms.datawindow[1]	=	"d_criterios_nomctrac_preelaborada"
+
+
+gs_parms.title				=	"Planilla Pre-Elaborada"
+message.StringParm 		= 	"w_informe_planilla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+type m_generacióndearchivoascii from menu within m_informesespeciales
+end type
+
+on m_generacióndearchivoascii.create
+call super::create
+this.text = "Generación de Archivo ASCII"
+end on
+
+on m_generacióndearchivoascii.destroy
+call super::destroy
+end on
+
+type m_sobre85x11 from menu within m_informesespeciales
+end type
+
+event clicked;
+SetNull(gs_condicion)
+gs_parms.datawindow[1]	=	'd_sobre_85_x_11'
+gs_parms.title				=	"Sobre de Pago Semanal"
+gs_parms.condicion		=	gs_condicion
+
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+end event
+
+on m_sobre85x11.create
+call super::create
+this.text = "&Sobre (8.5 x 11)"
+end on
+
+on m_sobre85x11.destroy
+call super::destroy
+end on
+
+type m_empleado from menu within m_informesespeciales
+end type
+
+on m_empleado.create
+call super::create
+this.text = "&Empleado Tabular"
+end on
+
+on m_empleado.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_rhuempl_tabular"
+gs_parms.title				=	"Consulta de Empleados"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+type m_cierredeplanilla from menu within m_abaco_frame_pla
+m_afectaciónalmayor m_afectaciónalmayor
+m_preelaborada1 m_preelaborada1
+m_acumuladosporempleado2 m_acumuladosporempleado2
+m_acumulados3 m_acumulados3
+end type
+
+on m_cierredeplanilla.create
+call super::create
+this.text = "&Informes Especiales"
+this.m_afectaciónalmayor=create m_afectaciónalmayor
+this.m_preelaborada1=create m_preelaborada1
+this.m_acumuladosporempleado2=create m_acumuladosporempleado2
+this.m_acumulados3=create m_acumulados3
+this.Item[UpperBound(this.Item)+1]=this.m_afectaciónalmayor
+this.Item[UpperBound(this.Item)+1]=this.m_preelaborada1
+this.Item[UpperBound(this.Item)+1]=this.m_acumuladosporempleado2
+this.Item[UpperBound(this.Item)+1]=this.m_acumulados3
+end on
+
+on m_cierredeplanilla.destroy
+call super::destroy
+destroy(this.m_afectaciónalmayor)
+destroy(this.m_preelaborada1)
+destroy(this.m_acumuladosporempleado2)
+destroy(this.m_acumulados3)
+end on
+
+type m_afectaciónalmayor from menu within m_cierredeplanilla
+m_tipodecolumnas0 m_tipodecolumnas0
+m_estructura0 m_estructura0
+end type
+
+on m_afectaciónalmayor.create
+call super::create
+this.text = "&Estructura de Listados"
+this.m_tipodecolumnas0=create m_tipodecolumnas0
+this.m_estructura0=create m_estructura0
+this.Item[UpperBound(this.Item)+1]=this.m_tipodecolumnas0
+this.Item[UpperBound(this.Item)+1]=this.m_estructura0
+end on
+
+on m_afectaciónalmayor.destroy
+call super::destroy
+destroy(this.m_tipodecolumnas0)
+destroy(this.m_estructura0)
+end on
+
+type m_tipodecolumnas0 from menu within m_afectaciónalmayor
+end type
+
+on m_tipodecolumnas0.create
+call super::create
+this.text = "&Tipo de Columnas"
+end on
+
+on m_tipodecolumnas0.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_tipo_de_columna"
+gs_parms.title				=	"Tipo de Columna"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+type m_estructura0 from menu within m_afectaciónalmayor
+end type
+
+on m_estructura0.create
+call super::create
+this.text = "&Estructura"
+end on
+
+on m_estructura0.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_pla_estructura_listado"
+gs_parms.title				=	"Estructura de Listados"
+message.StringParm 		= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+
+of_sendmessage("pfc_Open")
+end event
+
+type m_preelaborada1 from menu within m_cierredeplanilla
+end type
+
+on m_preelaborada1.create
+call super::create
+this.text = "&Preelaborada (1)"
+end on
+
+on m_preelaborada1.destroy
+call super::destroy
+end on
+
+event clicked;string	ls_listado
+
+ls_listado	=	gnv_abaco.of_valor_parametro("listado_1", "PLA")
+
+
+gs_parms.datawindow[1]	=	'd_pla_listado_1'
+gs_parms.title				=	"Informe de planilla Preelaborada"
+gs_parms.argumentos[1]	=	trim(ls_listado)
+OpenWithParm(w_response_abaco_con_fecha, gs_parms)
+
+
+
+end event
+
+type m_acumuladosporempleado2 from menu within m_cierredeplanilla
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_pla_informe'
+gs_parms.title				=	"Informe de Planilla"
+gs_parms.argumentos[1]	=	'2'
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_acumuladosporempleado2.create
+call super::create
+this.text = "&Acumulados (2)"
+end on
+
+on m_acumuladosporempleado2.destroy
+call super::destroy
+end on
+
+type m_acumulados3 from menu within m_cierredeplanilla
+end type
+
+event clicked;
+
+gs_parms.datawindow[1]	=	'd_pla_informe'
+gs_parms.title				=	"Informe de Planilla"
+gs_parms.argumentos[1]	=	'3'
+OpenWithParm(w_response_abaco_informes, gs_parms)
+
+
+
+end event
+
+on m_acumulados3.create
+call super::create
+this.text = "&Acumulados (3)"
+end on
+
+on m_acumulados3.destroy
+call super::destroy
+end on
+
+type m_utilitarios from menu within m_abaco_frame_pla
+m_ajustedehoras10 m_ajustedehoras10
+m_actualizasalariobruto m_actualizasalariobruto
+end type
+
+on m_utilitarios.create
+call super::create
+this.text = "Utilitarios"
+this.m_ajustedehoras10=create m_ajustedehoras10
+this.m_actualizasalariobruto=create m_actualizasalariobruto
+this.Item[UpperBound(this.Item)+1]=this.m_ajustedehoras10
+this.Item[UpperBound(this.Item)+1]=this.m_actualizasalariobruto
+end on
+
+on m_utilitarios.destroy
+call super::destroy
+destroy(this.m_ajustedehoras10)
+destroy(this.m_actualizasalariobruto)
+end on
+
+type m_ajustedehoras10 from menu within m_utilitarios
+end type
+
+on m_ajustedehoras10.create
+call super::create
+this.text = "&Ajuste de Horas (1)"
+end on
+
+on m_ajustedehoras10.destroy
+call super::destroy
+end on
+
+event clicked;gs_parms.datawindow[1]	=	"d_nomhoras"
+gs_parms.title			=	"Ajuste de Horas"
+message.StringParm 	= 	"w_maestro_pla"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+end event
+
+type m_actualizasalariobruto from menu within m_utilitarios
+end type
+
+event clicked;gs_parms.title				=	"Actualiza Salario de Empleados por Hora"
+message.StringParm 		= 	"w_proceso_upd_salarios"
+message.PowerObjectParm = 	gs_parms
+of_sendmessage("pfc_Open")
+
+
+
+end event
+
+on m_actualizasalariobruto.create
+call super::create
+this.text = "&Actualiza Salario Bruto"
+end on
+
+on m_actualizasalariobruto.destroy
+call super::destroy
+end on
+

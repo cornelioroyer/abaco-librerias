@@ -1,0 +1,23 @@
+; Application INI file
+[Database]
+DBMS = ODBC
+AutoCommit = False
+DBParm = "ConnectString='DSN=abaco;UID=cornelio;PWD=cornelio',DelimitIdentifier='No',Async=1,DBGetTime=10,StripParmNames='Yes',MsgTerse='Yes',StaticBind=0, DisableBind=1, CommitOnDisconnect='Yes'"
+LogId=
+LogPassword=
+ServerName=abaco
+UserId=dba
+DatabasePassword=
+
+[Database PFC]
+DBMS = ODBC
+AutoCommit = True
+DBParm = ConnectString='DSN=pfc;UID=dba;PWD=sql',disablebind=1
+LogId=
+LogPassword=
+ServerName=abaco
+UserId=dba
+DatabasePassword=
+
+
+
