@@ -1,5 +1,0 @@
--c 8192
--n abaco
-c:\abaco\data\abaco.db
-c:\abaco\data\pfc.db
-
