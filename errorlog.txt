@@ -1,22 +1,246 @@
-DateTime: 2015-07-27 14:55:31	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Almacen 02 Caja 03  Nota Debito 2074 No Existe;
+DateTime: 2015-08-19 13:02:43	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-08-19 13:02:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query to backend;
+Could not send Query to backend                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-19 13:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-27 14:55:54	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-27 15:44:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Almacen 02 Caja 03  Nota Debito 2074 No Existe;
+DateTime: 2015-08-19 14:51:48	Title: Application                                                                                                                                                                                                                                                    	Message: %s                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-19 15:30:45	Title: Application                                                                                                                                                                                                                                                    	Message: %s                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-19 15:38:57	Title: Application                                                                                                                                                                                                                                                    	Message: %s                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-20 14:02:14	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+Select Error: SQLSTATE = 42601
+ERROR: syntax error at or near "9";
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-27 15:46:25	Title: A B A C O	Message: Mensaje de error de la base de datos:
+DateTime: 2015-08-20 14:03:16	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-08-24 20:21:19	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-08-25 11:52:10	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 65228 waits for ShareLock on transaction 321466; blocked by process 596.
+Process 596 waits for ShareLock on transaction 321468; blocked by process 65228.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-25 12:48:15	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-08-27 15:46:11	Title: Application                                                                                                                                                                                                                                                    	Message: %s                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-28 18:41:13	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_factura2_eys2"
+Key (almacen, tipo, caja, num_documento, factura2_linea)=(01, 02 , 02 , 12, 1) already exists.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-28 18:48:14	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-08-31 15:46:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-08-15 No hay existencia -3.0000 para este articulo 554461          en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-31 15:48:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-08-15 No hay existencia -3.0000 para este articulo 554461          en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-31 15:50:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-31 15:50:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
 Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 13:25:52	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-28 13:40:25	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 13:41:08	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 13:41:23	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 13:41:44	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 13:44:04	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-28 13:53:15	Title: A B A C O	Message: A database error has occurred.
+DateTime: 2015-08-31 15:50:43	Title: System Error                                                                                                                                                                                                                                                   	Message: Parametro dbms no existe en la aplicacion SET                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-31 16:29:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-08-31 17:21:33	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 10:27:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 10:28:59	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 10:31:04	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 10:32:00	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  26
+
+Database error message:
+Select Error: SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:11:20	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-01 12:36:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:35	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:47	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:55	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:37:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:02	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_eys1_eys2" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:03	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:03	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:03	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 12:38:03	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-01 15:34:48	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 6600200                  Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-02 11:29:30	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-02 11:38:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-02 11:38:51	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-02 11:38:53	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-02 11:45:26	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-02 12:09:18	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-02 12:10:42	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-02 13:03:01	Title: A B A C O	Message: A database error has occurred.
 
 
 Database error code:  7
@@ -25,520 +249,41 @@ Database error message:
 Select Error: SQLSTATE = 42702
 ERROR: column reference "almacen" is ambiguous;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-28 14:14:27	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-28 14:25:46	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-29 18:05:58	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-29 19:58:16	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 42P01
-ERROR: relation "cglposteo" does not exist;
+DateTime: 2015-09-02 13:03:06	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-02 13:04:54	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+Select Error: SQLSTATE = 42702
+ERROR: column reference "almacen" is ambiguous;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 19:58:23	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 42P01
-ERROR: relation "cglposteo" does not exist;
+DateTime: 2015-09-02 13:07:17	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+Select Error: SQLSTATE = 42702
+ERROR: column reference "almacen" is ambiguous;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:08:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
+DateTime: 2015-09-02 15:17:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 18163 waits for ShareLock on transaction 5299134; blocked by process 17418.
+Process 17418 waits for ShareLock on transaction 5299136; blocked by process 18163.;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:09:06	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:11:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:13:22	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:13:53	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 20:14:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:37:24	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 57P01
-FATAL: terminating connection due to administrator command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:37:29	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-29 21:55:13	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:55:23	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:57:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:57:09	Title: A B A C O	Message: Mensaje de error de la base de datos:
+DateTime: 2015-09-02 15:19:26	Title: A B A C O	Message: Mensaje de error de la base de datos:
 SQLSTATE = 08S01
-Could not send Query(connection dead);
-Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:58:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-29 21:59:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 08S01
-Could not send Query(connection dead);
-Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:07:27	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:07:47	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:10:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:12:03	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:13:01	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:16:08	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:18:08	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 06:19:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 27000
-ERROR: tuple to be updated was already modified by an operation triggered by the current command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 13:23:59	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-30 14:55:14	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Manifiesto 29099 no tiene afectacion contable definida...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 14:56:36	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Manifiesto 29099 no tiene afectacion contable definida...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 14:57:02	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Manifiesto 29099 no tiene afectacion contable definida...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 14:57:23	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Manifiesto 29099 no tiene afectacion contable definida...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 14:55:35	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 23505
-ERROR: duplicate key value violates unique constraint "i1_cxpdocm";
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 15:02:27	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-16' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 15:02:15.770000'}, {d '2015-07-16' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:25	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-16' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:25.426000'}, {d '2015-07-16' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:29	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-17' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:28.979000'}, {d '2015-07-17' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:32	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "13" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-18' }, '003    ', '02', '02', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '13:00:00'}, 'dba', {ts '2015-07-30 16:28:31.816000'}, {d '2015-07-18' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:34	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-20' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:34.572000'}, {d '2015-07-20' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:39	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-21' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:39.140000'}, {d '2015-07-21' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:42	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-22' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:41.880000'}, {d '2015-07-22' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:44	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-23' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:44.503000'}, {d '2015-07-23' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:47	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-24' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:47.025000'}, {d '2015-07-24' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:52	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "13" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-25' }, '003    ', '02', '02', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '13:00:00'}, 'dba', {ts '2015-07-30 16:28:51.793000'}, {d '2015-07-25' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:54	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-27' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:54.318000'}, {d '2015-07-27' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:28:57	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-28' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:28:57.134000'}, {d '2015-07-28' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:29:00	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-29' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:29:00.065000'}, {d '2015-07-29' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-30 16:29:02	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-30' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-30 16:29:02.506000'}, {d '2015-07-30' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:36:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Empleado 014     no tiene afectacion contable en el departamento 02  y el concepto 107;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:36:53	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:37:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Empleado 014     no tiene afectacion contable en el departamento 02  y el concepto 107;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:38:29	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:39:32	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-16' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 06:39:32.595000'}, {d '2015-07-16' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:40:49	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-17' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 06:40:49.757000'}, {d '2015-07-17' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:40:52	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "13" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-18' }, '003    ', '02', '02', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '13:00:00'}, 'dba', {ts '2015-07-31 06:40:52.024000'}, {d '2015-07-18' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:40:54	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-20' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 06:40:54.180000'}, {d '2015-07-20' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 06:51:20	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-16' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 06:51:20.663000'}, {d '2015-07-16' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:10:10	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 23505
-ERROR: duplicate key value violates unique constraint "pk_nomhrtrab"
-Key (fecha_laborable, codigo_empleado, compania, tipo_planilla, numero_planilla, fecha_salida)=(2015-07-22, 101    , 02, 2 , 14, 2015-07-22) already exists.;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-22' }, '101    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 07:10:10.735000'}, {d '2015-07-22' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:10:21	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 23505
-ERROR: duplicate key value violates unique constraint "pk_nomhrtrab"
-Key (fecha_laborable, codigo_empleado, compania, tipo_planilla, numero_planilla, fecha_salida)=(2015-07-24, 104    , 02, 2 , 14, 2015-07-24) already exists.;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-24' }, '104    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 07:10:21.747000'}, {d '2015-07-24' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:14:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:16:09	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:16:32	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:16:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:17:48	Title: A B A C O	Message: A database error has occurred.
-
-
-Database error code:  7
-
-Database error message:
-SQLSTATE = 22007
-ERROR: hour "17" is invalid for the 12-hour clock;
-Error while executing the query
-
-No changes made to database.
-
-INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( {d '2015-07-16' }, '003    ', '02', '01', '2 ', 14, 2015, 'R', {t '08:00:00'}, {t '12:00:00'}, {t '13:00:00'}, {t '17:00:00'}, 'dba', {ts '2015-07-31 07:17:48.082000'}, {d '2015-07-16' } )                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 07:20:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 42P01
-ERROR: relation "v_pla_acumulados" does not exist;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:20:58	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 23502
-ERROR: null value in column "cliente" violates not-null constraint;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:22:43	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:26:04	Title: System Error                                                                                                                                                                                                                                                   	Message: Error Number 3.
-Error text = Array boundary exceeded at line 19 in pfc_retrieve event of object dw_1 of w_master_detail_1_pla..
-Window/Menu/Object = w_master_detail_1_pla.
-Error Object/Control = dw_1.
-Script = pfc_retrieve.
-Line in Script = 19.                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:26:46	Title: System Error                                                                                                                                                                                                                                                   	Message: Error Number 3.
-Error text = Array boundary exceeded at line 19 in pfc_retrieve event of object dw_1 of w_master_detail_1_pla..
-Window/Menu/Object = w_master_detail_1_pla.
-Error Object/Control = dw_1.
-Script = pfc_retrieve.
-Line in Script = 19.                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:35:36	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 23502
-ERROR: null value in column "cliente" violates not-null constraint;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 14:36:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
-Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-07-31 15:04:17	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-07-31 15:15:01	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 23505
-ERROR: duplicate key value violates unique constraint "pk_cxcdocm"
-Key (documento, caja, docmto_aplicar, cliente, motivo_cxc, almacen)=(7623                     , 01 , 7623                     , 0118      , 17 , 02) already exists.;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-01 08:02:33	Title: A B A C O	Message: La informaci�n registrada no ha sido validada y debe ser corregida antes de guardar los cambios. �Desea Salir sin Salvar los cambios?                                                                                                                          	User: 	Comments: 
-DateTime: 2015-08-01 08:13:48	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-08-03 10:38:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
+ERROR: deadlock detected
+Process 18163 waits for ShareLock on transaction 5299134; blocked by process 17418.
+Process 17418 waits for ShareLock on transaction 5299136; blocked by process 18163.                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-03 11:18:55	Title: A B A C O	Message: Mensaje de error de la base de datos:
 SQLSTATE = 57P01
 FATAL: terminating connection due to administrator command;
 Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-03 11:12:47	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 57P01
-FATAL: terminating connection due to administrator command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-03 11:12:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+DateTime: 2015-09-03 11:38:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
 SQLSTATE = 57P01
 Could not send Query(connection dead);
 Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 10:36:04	Title: Application                                                                                                                                                                                                                                                    	Message: Factura proviene de otro modulo no puede ser alterada...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 10:36:08	Title: Application                                                                                                                                                                                                                                                    	Message: Factura proviene de otro modulo no puede ser alterada...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 10:36:09	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-08-04 11:27:29	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Factura 834 no puede ser modificada...Tiene Devolucion aplicandole;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 18:44:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Fecha 2006-08-09 en la aplicacion CGL de la cia 03 corresponde a un periodo cerrado...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 18:44:55	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 42P01
-ERROR: relation "v_cxpdocm" does not exist;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 18:48:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Fecha 2006-08-09 en la aplicacion CGL de la cia 03 corresponde a un periodo cerrado...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 18:50:33	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Fecha 2006-08-09 en la aplicacion CGL de la cia 03 corresponde a un periodo cerrado...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 18:54:59	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = P0001
-ERROR: Fecha 2006-08-09 en la aplicacion CGL de la cia 03 corresponde a un periodo cerrado...Verifique;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 19:07:02	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 57P01
-FATAL: terminating connection due to administrator command;
-Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 19:07:14	Title: A B A C O	Message: Mensaje de error de la base de datos:
-SQLSTATE = 57P01
-Could not send Query(connection dead);
-Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
-DateTime: 2015-08-04 19:58:06	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-08-04 20:01:54	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
-DateTime: 2015-08-04 20:14:38	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
