@@ -287,3 +287,788 @@ DateTime: 2015-09-03 11:38:49	Title: A B A C O	Message: Mensaje de error de la b
 SQLSTATE = 57P01
 Could not send Query(connection dead);
 Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-07 13:54:23	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-07 17:03:22	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-08 15:01:51	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-08 15:09:02	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-08 15:10:48	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  26
+
+Database error message:
+Select Error: SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-09 17:11:59	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-09-05 No hay existencia -1.0000 para este articulo A1403-00        en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-09 17:15:14	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query to backend;
+Could not send Query to backend                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-09 17:51:26	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-08-14 No hay existencia -38.0000 para este articulo R221            en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-09 18:16:34	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-09 18:16:35	Title: System Error                                                                                                                                                                                                                                                   	Message: Parametro dbms no existe en la aplicacion SET                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 08:24:42	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: No hay existencia para este articulo R1341           en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 08:27:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: No hay existencia para este articulo R1341           en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 08:55:15	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-09-10 No hay existencia -1.0000 para este articulo EDCM018C        en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 09:00:47	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-11 09:00:54	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-11 10:51:36	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxcdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:41	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:51	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:53	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:55	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:56	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:56:58	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:01	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:02	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:04	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:05	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:20	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:35	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:37	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:38	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:39	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:39	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:40	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:42	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:43	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 16:57:44	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:32:08	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:32:25	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:37	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:39	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:40	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:45	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:50	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:52	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:34:54	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-11 17:36:23	Title: A B A C O	Message: A database error has occurred.
+
+
+Database error code:  7
+
+Database error message:
+SQLSTATE = 53100
+ERROR: could not extend file "base/103376/45308748": No space left on device;
+Error while executing the query
+
+No changes made to database.
+
+INSERT INTO nomhrtrab ( fecha_laborable, codigo_empleado, compania, cod_id_turnos, tipo_planilla, numero_planilla, year, status, hora_de_inicio_trabajo, hora_de_descanso_inicio, hora_de_descanso_final, hora_de_salida_trabajo, usuario, fecha_actualiza, fecha_salida ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 08:12:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 27000
+ERROR: tuple to be updated was already modified by an operation triggered by the current command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 08:33:06	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 27000
+ERROR: tuple to be updated was already modified by an operation triggered by the current command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 08:41:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 6600200                  Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 08:45:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_cxpdocm" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 08:54:57	Title: Application                                                                                                                                                                                                                                                    	Message: Codigo de Cuenta esta Inactivo...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:01:04	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1066 de Cuenta    tiene inconsistencia con cxpdocm;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:02:33	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-12 09:02:36	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1066 de Cuenta    tiene inconsistencia con cxpdocm;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:03:17	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1066 de Cuenta    tiene inconsistencia con cxpdocm;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:19:34	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_cxpdocm" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:19:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "v_cxpdocm" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-12 09:36:19	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-12 09:36:26	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-12 10:30:58	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-13 15:00:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:00:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:00:15	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:00:18	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:00:21	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:34:23	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-13 15:51:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:51:45	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:51:49	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:51:51	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 42P01
+ERROR: relation "cglposteo" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-13 15:51:54	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-14 13:40:07	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-14 13:48:25	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-15 18:51:46	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-15 18:54:26	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-15 18:54:29	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-15 19:07:08	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-15 19:07:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-15 19:11:04	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-16 10:53:40	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1061 de Cuenta    tiene inconsistencia con cxpdocm v_cxpdocm 0.00 bcocheck3 90.00;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-16 11:53:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1061 de Cuenta    tiene inconsistencia con cxpdocm v_cxpdocm 0.00 bcocheck3 90.00;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-16 11:58:35	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cheque 1061 de Cuenta    tiene inconsistencia con cxpdocm v_cxpdocm 0.00 bcocheck3 90.00;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-16 17:23:33	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 26000
+ERROR: prepared statement "_PLAN01A56D80" does not exist;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 12:03:47	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-17 13:52:03	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-17 13:53:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "pk_rela_adc_master_cglposteo";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 13:57:15	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 32451 waits for ShareLock on transaction 5418263; blocked by process 32452.
+Process 32452 waits for ShareLock on transaction 5418265; blocked by process 32451.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 13:59:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 14:00:25	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "pk_factura1";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 14:00:33	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 14:01:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = S1000
+internal RELEASE failed                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 14:01:09	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 14:01:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 16:21:17	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 16:21:23	Title: Application                                                                                                                                                                                                                                                    	Message: Numero de factura referenciada no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-17 16:25:49	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-18 13:26:10	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Fecha 2015-07-31 en la aplicacion CGL de la cia 03 corresponde a un periodo cerrado...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 06:42:09	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: A esta fecha 2015-06-16 No hay existencia -1.0000 para este articulo GARANTIA        en el almacen 01;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 06:43:59	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 8362200                  Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 06:58:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 8362200                  Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 07:13:07	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-21 07:13:46	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 6130100                  Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 08:45:59	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 08:46:03	Title: System Error                                                                                                                                                                                                                                                   	Message: Parametro update_inventario no existe en el almacen 01                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 08:46:05	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-21 12:20:29	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-22 15:36:01	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-22 15:41:47	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-22 15:47:27	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxcdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 08:31:07	Title: Application                                                                                                                                                                                                                                                    	Message: Proveedor no Existe...Verifique                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:09:51	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 31628 waits for ShareLock on transaction 5456916; blocked by process 31262.
+Process 31262 waits for ShareLock on transaction 5456914; blocked by process 31628.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:45:52	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "pk_factura1";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:45:57	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:46:20	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxcdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:46:31	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxcdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 15:49:00	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "pk_rela_cxpfact1_cglposteo";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 16:02:11	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxpdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-23 16:22:55	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+FATAL: terminating connection due to administrator command                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 14:31:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cliente 01000      Documento 007511507                 Aplicar 007511507                 Tipo 2   Ya Existe...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 14:35:40	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-24 14:35:45	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cliente 01000      Documento 007511507                 Aplicar 007511507                 Tipo 2   Ya Existe...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 15:33:45	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cliente 01000      Documento 007901507                 Aplicar 007901507                 Tipo 2   Ya Existe...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 15:34:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cliente 01000      Documento 007901507                 Aplicar 007901507                 Tipo 2   Ya Existe...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 15:35:26	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cliente 01000      Documento 007901507                 Aplicar 007901507                 Tipo 2   Ya Existe...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 15:47:50	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 5368 waits for ShareLock on transaction 5463734; blocked by process 5363.
+Process 5363 waits for ShareLock on transaction 5463732; blocked by process 5368.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 16:17:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 16:17:40	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 16:30:38	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 5723 waits for ShareLock on transaction 5465981; blocked by process 5801.
+Process 5801 waits for ShareLock on transaction 5465980; blocked by process 5723.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 18:04:25	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = P0001
+ERROR: Cuenta 4002 Esta Inactiva...Verifique;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-24 18:09:21	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 40P01
+ERROR: deadlock detected
+Process 6178 waits for ShareLock on transaction 5479305; blocked by process 5830.
+Process 5830 waits for ShareLock on transaction 5479307; blocked by process 6178.;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 19:50:36	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:26:30	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:26:34	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:26:37	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:30:41	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:30:44	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:30:53	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-27 22:30:56	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-28 08:39:22	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-29 09:24:32	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 23505
+ERROR: duplicate key value violates unique constraint "i1_cxpdocm";
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-29 12:48:22	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 08S01
+ERROR: duplicate key value violates unique constraint "i1_cxpdocm"                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 10:32:01	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 10:32:07	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 10:32:01	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 10:32:15	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 13:27:47	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 13:27:52	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 13:28:02	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 13:28:07	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 13:28:11	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 14:51:22	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 14:51:24	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 14:51:28	Title: A B A C O	Message: La información registrada no ha sido validada y debe ser corregida antes de guardar los cambios. ¿Desea Salir sin Salvar los cambios?                                                                                                                        	User: 	Comments: 
+DateTime: 2015-09-30 14:51:30	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 16:02:06	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+FATAL: terminating connection due to administrator command;
+Error while executing the query                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 16:02:09	Title: A B A C O	Message: Mensaje de error de la base de datos:
+Cursor is not open                                                                                                                                                                                                                                                             	User: 	Comments: 
+DateTime: 2015-09-30 16:02:12	Title: A B A C O	Message: Mensaje de error de la base de datos:
+SQLSTATE = 57P01
+Could not send Query(connection dead);
+Could not send Query(connection dead)                                                                                                                                                                                                                                                             	User: 	Comments: 
